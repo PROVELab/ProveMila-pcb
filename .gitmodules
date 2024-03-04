@@ -1,0 +1,3 @@
+[submodule "ProveMila-partslib"]
+	path = ProveMila-partslib
+	url = https://github.com/PROVELab/ProveMila-partslib.git
