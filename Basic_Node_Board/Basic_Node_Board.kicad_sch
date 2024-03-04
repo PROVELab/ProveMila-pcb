@@ -1,0 +1,131 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "9602f2a9-59de-4c89-af09-0033871e87a5")
+	(paper "A4")
+	(title_block
+		(title "High Level Overview")
+		(company "PROVE Lab")
+	)
+	(lib_symbols)
+	(sheet
+		(at 152.4 21.59)
+		(size 83.82 45.72)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "171b48c4-31ba-4ad4-b68c-0c27aedd5528")
+		(property "Sheetname" "Current_Sensor"
+			(at 152.4 20.8784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "current_sensor.kicad_sch"
+			(at 152.4 67.8946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Basic_Node_Board"
+				(path "/9602f2a9-59de-4c89-af09-0033871e87a5"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 33.02 88.9)
+		(size 72.39 45.72)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "20236dec-7072-4353-8cea-326a2b34f7fc")
+		(property "Sheetname" "Microcontroller"
+			(at 33.02 88.1884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "microcontroller.kicad_sch"
+			(at 33.02 135.2046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Basic_Node_Board"
+				(path "/9602f2a9-59de-4c89-af09-0033871e87a5"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 31.75 22.86)
+		(size 66.04 45.72)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f75fb6b5-0a5c-4968-8bfd-44aa5cbdfa9c")
+		(property "Sheetname" "Power_Supply"
+			(at 31.75 22.1484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power_supply.kicad_sch"
+			(at 31.75 69.1646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Basic_Node_Board"
+				(path "/9602f2a9-59de-4c89-af09-0033871e87a5"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
