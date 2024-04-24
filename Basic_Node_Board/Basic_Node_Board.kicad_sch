@@ -48,7 +48,7 @@
 		)
 	)
 	(sheet
-		(at 33.02 88.9)
+		(at 31.75 88.9)
 		(size 72.39 45.72)
 		(fields_autoplaced yes)
 		(stroke
@@ -60,7 +60,7 @@
 		)
 		(uuid "20236dec-7072-4353-8cea-326a2b34f7fc")
 		(property "Sheetname" "Microcontroller"
-			(at 33.02 88.1884 0)
+			(at 31.75 88.1884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -69,7 +69,7 @@
 			)
 		)
 		(property "Sheetfile" "microcontroller.kicad_sch"
-			(at 33.02 135.2046 0)
+			(at 31.75 135.2046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
