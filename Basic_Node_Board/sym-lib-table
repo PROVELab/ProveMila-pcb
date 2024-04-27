@@ -1,4 +1,5 @@
 (sym_lib_table
   (version 7)
-  (lib (name "INA220")(type "KiCad")(uri "${PROVE_PARTS_LIB_DIR}/INA220AIDGSR.kicad_sym")(options "")(descr ""))
+  (lib (name "INA220")(type "KiCad")(uri "${PROVE_PARTS_LIB_DIR}/PROVE-symbols/INA220AIDGSR.kicad_sym")(options "")(descr ""))
+  (lib (name "PROVE")(type "HTTP")(uri "${PROVE_PARTS_LIB_DIR}/PROVE-partslib.kicad_httplib")(options "")(descr ""))
 )
