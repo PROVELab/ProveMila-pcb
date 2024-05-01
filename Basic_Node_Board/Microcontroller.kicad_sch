@@ -666,6 +666,70 @@
 			)
 		)
 	)
+	(wire
+		(pts
+			(xy 102.87 100.33) (xy 105.41 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a411065-e680-4ba8-9842-432ec1eaf5da")
+	)
+	(wire
+		(pts
+			(xy 102.87 102.87) (xy 105.41 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67cf52a4-0702-4940-b7b1-d40ca62da6f1")
+	)
+	(global_label "SDA"
+		(shape input)
+		(at 105.41 100.33 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "68fa21fa-8726-4f18-b850-12ad655f3c9e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 111.9633 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SCL"
+		(shape input)
+		(at 105.41 102.87 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8b13be40-d8b4-4dc4-9280-24f207e7bc5b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 111.9028 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(symbol
 		(lib_id "MCU_Module:Arduino_UNO_R3")
 		(at 90.17 82.55 0)
