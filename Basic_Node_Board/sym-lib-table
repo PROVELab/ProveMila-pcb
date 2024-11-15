@@ -6,4 +6,5 @@
   (lib (name "TPS25810")(type "KiCad")(uri "${PROVE_PARTS_LIB_DIR}/PROVE-symbols/TPS25810.kicad_sym")(options "")(descr ""))
   (lib (name "TJA1050")(type "KiCad")(uri "${PROVE_PARTS_LIB_DIR}/PROVE-symbols/TJA1050T_CM_118.kicad_sym")(options "")(descr ""))
   (lib (name "ESP32")(type "KiCad")(uri "${PROVE_PARTS_LIB_DIR}/PROVE-symbols/ESP32-DEVKITC.kicad_sym")(options "")(descr ""))
+  (lib (name "AP64060")(type "KiCad")(uri "${PROVE_PARTS_LIB_DIR}/PROVE-symbols/AP64060.kicad_sym")(options "")(descr ""))
 )
