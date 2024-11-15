@@ -49,7 +49,7 @@
 	)
 	(sheet
 		(at 31.75 88.9)
-		(size 72.39 45.72)
+		(size 90.17 76.2)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -69,7 +69,7 @@
 			)
 		)
 		(property "Sheetfile" "microcontroller.kicad_sch"
-			(at 31.75 135.2046 0)
+			(at 31.75 165.6846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
