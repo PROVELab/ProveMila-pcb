@@ -4,4 +4,5 @@
   (lib (name "PROVE")(type "HTTP")(uri "${PROVE_PARTS_LIB_DIR}/PROVE-partslib.kicad_httplib")(options "")(descr ""))
   (lib (name "FT312D")(type "KiCad")(uri "${PROVE_PARTS_LIB_DIR}/PROVE-symbols/FT312D-32L1C-R.kicad_sym")(options "")(descr ""))
   (lib (name "TPS25810")(type "KiCad")(uri "${PROVE_PARTS_LIB_DIR}/PROVE-symbols/TPS25810.kicad_sym")(options "")(descr ""))
+  (lib (name "ESP32")(type "KiCad")(uri "${PROVE_PARTS_LIB_DIR}/PROVE-symbols/ESP32-DEVKITC.kicad_sym")(options "")(descr ""))
 )
