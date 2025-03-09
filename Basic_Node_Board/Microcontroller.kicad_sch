@@ -5,469 +5,6 @@
 	(uuid "c58806c5-432f-4c41-8983-8e5fd30a3703")
 	(paper "A4")
 	(lib_symbols
-		(symbol "1206B104K500CT_1"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim yes)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0.635 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "0.1u"
-				(at 0.635 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
-				(at 0.9652 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://138.2.231.237:8080/en/part/28/info"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "CAP CER 0.1UF 50V X7R 1206"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Category" "Capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MPN" "1206B104K500CT"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "Walsin Technology Corporation"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturing Status" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Part-DB Footprint" "1206"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Part-DB ID" "28"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "C_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "1206B104K500CT_1_0_1"
-				(polyline
-					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "1206B104K500CT_1_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "AP64060WU-7_1"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim yes)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 20.32 10.16 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Value" "AP64060WU-7"
-				(at 20.32 7.62 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:TSOT-23-6"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://138.2.231.237:8080/en/part/31/info"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "IC REG BUCK ADJ 600MA TSOT26"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Category" "IC/Power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MPN" "AP64060WU-7"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "Diodes Incorporated"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturing Status" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Part-DB Footprint" "TSOT23-6"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Part-DB ID" "31"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "IC6_AP64060QWU-7_DIO IC6_AP64060QWU-7_DIO-M IC6_AP64060QWU-7_DIO-L"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "AP64060WU-7_1_1_1"
-				(polyline
-					(pts
-						(xy 7.62 -10.16) (xy 33.02 -10.16)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 5.08) (xy 7.62 -10.16)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 33.02 -10.16) (xy 33.02 5.08)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 33.02 5.08) (xy 7.62 5.08)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at 0 0 0)
-					(length 7.62)
-					(name "BST"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 0 -2.54 0)
-					(length 7.62)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 -5.08 0)
-					(length 7.62)
-					(name "FB"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 40.64 -5.08 180)
-					(length 7.62)
-					(name "EN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 40.64 -2.54 180)
-					(length 7.62)
-					(name "VIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 40.64 0 180)
-					(length 7.62)
-					(name "SW"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Connector:Conn_01x02_Pin"
 			(pin_names
 				(offset 1.016) hide)
@@ -1504,145 +1041,6 @@
 				)
 			)
 		)
-		(symbol "Connector_Generic:Conn_01x02"
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x02"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x02_1_1"
-				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 1.27)
-					(end 1.27 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "PROVE:1206B104K500CT"
 			(pin_numbers hide)
 			(pin_names
@@ -1824,199 +1222,6 @@
 				)
 			)
 		)
-		(symbol "PROVE:74404054100"
-			(pin_numbers hide)
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim yes)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "L"
-				(at -1.27 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "10u"
-				(at 1.905 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "PROVE:WE-LQS_5040"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://138.2.231.237:8080/en/part/35/info"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "FIXED IND 10UH 2.1A 64 MOHM SMD"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Category" "Inductor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MPN" "74404054100"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "Wurth Elektronik"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturing Status" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Part-DB ID" "35"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "74404054100_0_1"
-				(arc
-					(start 0 -2.54)
-					(mid 0.6323 -1.905)
-					(end 0 -1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -1.27)
-					(mid 0.6323 -0.635)
-					(end 0 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 0)
-					(mid 0.6323 0.635)
-					(end 0 1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 1.27)
-					(mid 0.6323 1.905)
-					(end 0 2.54)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "74404054100_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "PROVE:AP64060WU-7"
 			(exclude_from_sim yes)
 			(in_bom yes)
@@ -2116,382 +1321,6 @@
 						(size 1.27 1.27)
 					)
 					(hide yes)
-				)
-			)
-		)
-		(symbol "PROVE:CL31A106KPHNNNE"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim yes)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0.635 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "10u"
-				(at 0.635 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
-				(at 0.9652 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://138.2.231.237:8080/en/part/11/info"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "CAP CER 10UF 10V X5R 1206"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Category" "Capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MPN" "CL31A106KPHNNNE"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "Samsung"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturing Status" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Part-DB Footprint" "1206"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Part-DB ID" "11"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "C_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "CL31A106KPHNNNE_0_1"
-				(polyline
-					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "CL31A106KPHNNNE_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "PROVE:EEE-1VA2R2NR"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0.254) hide)
-			(exclude_from_sim yes)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0.635 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "2.2u"
-				(at 0.635 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Capacitor_SMD:CP_Elec_4x5.4"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://138.2.231.237:8080/en/part/32/info"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "CAP ALUM 2.2UF 20% 35V SMD"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Category" "Capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MPN" "EEE-1VA2R2NR"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "Panasonic"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturing Status" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Part-DB ID" "32"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "CP_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "EEE-1VA2R2NR_0_1"
-				(polyline
-					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 2.286) (xy -0.762 2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 1.778) (xy -1.27 2.794)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 2.032 -1.27)
-					(mid 0 -0.5572)
-					(end -2.032 -1.27)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "EEE-1VA2R2NR_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 3.302)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
 				)
 			)
 		)
@@ -3410,221 +2239,6 @@
 				)
 			)
 		)
-		(symbol "PROVE:RC1206FR-07115KL"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim yes)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 2.54 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "115k"
-				(at -2.54 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-				(at 1.016 -0.254 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://138.2.231.237:8080/en/part/33/info"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "RES 115K OHM 1% 1/4W 1206"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Category" "Resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MPN" "RC1206FR-07115KL"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "Yageo"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturing Status" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Part-DB Footprint" "1206"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Part-DB ID" "33"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "RC1206FR-07115KL_0_1"
-				(polyline
-					(pts
-						(xy 0 -2.286) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.286) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0.762) (xy 1.016 0.381) (xy 0 0) (xy -1.016 -0.381) (xy 0 -0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "RC1206FR-07115KL_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "PROVE:RMCF1206JT120R"
 			(pin_numbers hide)
 			(pin_names
@@ -4017,221 +2631,6 @@
 				)
 			)
 			(symbol "RMCF1206ZT0R00_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "PROVE:RNCP1206FTD22K1"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim yes)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 2.54 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "22.1k"
-				(at -2.54 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-				(at 1.016 -0.254 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://138.2.231.237:8080/en/part/34/info"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "RES 22.1K OHM 1% 1/2W 1206"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Category" "Resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MPN" "RNCP1206FTD22K1"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "Stackpole Electronics"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturing Status" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Part-DB Footprint" "1206"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Part-DB ID" "34"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "RNCP1206FTD22K1_0_1"
-				(polyline
-					(pts
-						(xy 0 -2.286) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.286) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0.762) (xy 1.016 0.381) (xy 0 0) (xy -1.016 -0.381) (xy 0 -0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "RNCP1206FTD22K1_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 1.27)
@@ -4756,6 +3155,126 @@
 				)
 			)
 		)
+		(symbol "power:+5V"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+5V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+5V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers hide)
@@ -4854,22 +3373,10 @@
 		)
 	)
 	(junction
-		(at 40.64 24.13)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "037928bd-fdfd-4a29-ba51-3fa6d715af3a")
-	)
-	(junction
 		(at 186.69 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "06dbc114-6ded-4576-8e5a-b489c45245ab")
-	)
-	(junction
-		(at 66.04 25.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0b84de71-48d5-425f-bd4f-2d485a821b89")
 	)
 	(junction
 		(at 229.87 82.55)
@@ -4884,40 +3391,16 @@
 		(uuid "11d16589-36d4-4537-85bf-cd1bec964ef9")
 	)
 	(junction
-		(at 116.84 24.13)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1e261152-4423-4bb9-8646-0e1a78e0f6e9")
-	)
-	(junction
-		(at 116.84 48.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "296e4cc2-7f13-4775-a778-3d6b20b3d92e")
-	)
-	(junction
 		(at 165.1 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "467afe6f-ebd7-4d99-aa14-6b1a716aa17f")
 	)
 	(junction
-		(at 130.81 24.13)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5c35792e-af57-4064-b2ff-975c04f566cc")
-	)
-	(junction
 		(at 118.11 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6ff06cf4-6acb-4c5d-bbbf-27e672bfa6e3")
-	)
-	(junction
-		(at 130.81 33.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7d7cdf36-cb94-4233-855d-9053fb462bbc")
 	)
 	(junction
 		(at 245.11 95.25)
@@ -4938,34 +3421,10 @@
 		(uuid "89b14029-0555-4e82-8d06-f4502e564330")
 	)
 	(junction
-		(at 40.64 48.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8c96fb80-d087-4767-a3c2-ce2948aaaef8")
-	)
-	(junction
 		(at 245.11 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a8188984-89ac-46b4-958d-c23027e30adf")
-	)
-	(junction
-		(at 130.81 40.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d1a50639-15e9-44a4-b347-43f18a6b7db0")
-	)
-	(junction
-		(at 116.84 38.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d76cdab6-508d-4c3b-a8d4-8ff652e0152d")
-	)
-	(junction
-		(at 52.07 48.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "df89aa81-83b9-4513-8ba4-5fcf113c72e4")
 	)
 	(junction
 		(at 252.73 77.47)
@@ -5015,16 +3474,6 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 40.64) (xy 130.81 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "038afcb8-b4a8-47ec-82b6-847392ed1a5a")
-	)
-	(wire
-		(pts
 			(xy 223.52 82.55) (xy 229.87 82.55)
 		)
 		(stroke
@@ -5032,26 +3481,6 @@
 			(type default)
 		)
 		(uuid "04f3b002-9be8-4a06-9c92-661e3c907449")
-	)
-	(wire
-		(pts
-			(xy 52.07 36.83) (xy 52.07 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0e8f3d6e-64c4-4d8c-a1c2-783aa260be5b")
-	)
-	(wire
-		(pts
-			(xy 40.64 24.13) (xy 31.75 24.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "11df640d-64ea-4a2e-aad6-3969a0188710")
 	)
 	(wire
 		(pts
@@ -5092,16 +3521,6 @@
 			(type default)
 		)
 		(uuid "21b5f43e-c7f7-4ab4-a86f-ab7708876ea9")
-	)
-	(wire
-		(pts
-			(xy 95.25 36.83) (xy 99.06 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "21e25e04-752d-447a-a1ef-a066f1b7548b")
 	)
 	(wire
 		(pts
@@ -5165,16 +3584,6 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 17.78) (xy 40.64 17.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2e57bf37-dc25-4e07-9425-d3e4447fc2bb")
-	)
-	(wire
-		(pts
 			(xy 243.84 77.47) (xy 252.73 77.47)
 		)
 		(stroke
@@ -5182,16 +3591,6 @@
 			(type default)
 		)
 		(uuid "2f4de384-e4d5-4e67-8613-9532879d530f")
-	)
-	(wire
-		(pts
-			(xy 130.81 33.02) (xy 130.81 24.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "33551d30-acbd-4e22-8424-85566d965f97")
 	)
 	(wire
 		(pts
@@ -5245,16 +3644,6 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 24.13) (xy 66.04 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "40d0b77e-664e-4d9b-8020-5906c4c0cf9e")
-	)
-	(wire
-		(pts
 			(xy 118.11 104.14) (xy 120.65 104.14)
 		)
 		(stroke
@@ -5262,26 +3651,6 @@
 			(type default)
 		)
 		(uuid "47b93c2e-7f9d-4744-bb3f-08cdd0c5fa59")
-	)
-	(wire
-		(pts
-			(xy 52.07 48.26) (xy 116.84 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4a4098d2-9257-430a-8f2b-c788656cba2f")
-	)
-	(wire
-		(pts
-			(xy 125.73 33.02) (xy 130.81 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4cf4ea17-535e-4f21-acbb-97da730d8079")
 	)
 	(wire
 		(pts
@@ -5315,16 +3684,6 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 17.78) (xy 40.64 24.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5f4bddbb-cc5d-4daa-8e63-283ac11aca72")
-	)
-	(wire
-		(pts
 			(xy 161.29 78.74) (xy 165.1 78.74)
 		)
 		(stroke
@@ -5335,16 +3694,6 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 38.1) (xy 116.84 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "618688aa-ab99-4973-9846-696bcf7d4a97")
-	)
-	(wire
-		(pts
 			(xy 161.29 93.98) (xy 165.1 93.98)
 		)
 		(stroke
@@ -5352,16 +3701,6 @@
 			(type default)
 		)
 		(uuid "6225b5ba-278f-48ee-ada1-c3f6d3bc1339")
-	)
-	(wire
-		(pts
-			(xy 85.09 24.13) (xy 116.84 24.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "645a4b9b-3e78-44c0-8718-1010ecb7422e")
 	)
 	(wire
 		(pts
@@ -5395,36 +3734,6 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 31.75) (xy 40.64 24.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "685a017d-8648-4d8e-b34d-b2e917385c47")
-	)
-	(wire
-		(pts
-			(xy 130.81 33.02) (xy 137.16 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "688f15e6-f812-44ff-be7d-50363cd15110")
-	)
-	(wire
-		(pts
-			(xy 54.61 34.29) (xy 50.8 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "69277bac-4fb4-4fb2-842d-f264020fd430")
-	)
-	(wire
-		(pts
 			(xy 118.11 68.58) (xy 120.65 68.58)
 		)
 		(stroke
@@ -5442,16 +3751,6 @@
 			(type default)
 		)
 		(uuid "6e4b92c1-7490-4e88-bb2f-7e2da0feaedd")
-	)
-	(wire
-		(pts
-			(xy 40.64 39.37) (xy 40.64 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "72b44c8a-37c7-4392-afa2-42003e4a4853")
 	)
 	(wire
 		(pts
@@ -5485,16 +3784,6 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 25.4) (xy 95.25 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7ab4de0f-4138-4e17-86fc-14b920b3fd8c")
-	)
-	(wire
-		(pts
 			(xy 177.8 74.93) (xy 177.8 86.36)
 		)
 		(stroke
@@ -5505,46 +3794,6 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 38.1) (xy 116.84 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "82211771-c3c1-4bf4-9528-51b136b26403")
-	)
-	(wire
-		(pts
-			(xy 130.81 40.64) (xy 137.16 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "83d5ed12-45f3-47fe-ada5-14f11fa8efb9")
-	)
-	(wire
-		(pts
-			(xy 54.61 45.72) (xy 107.95 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "86ccbd71-2dd9-49ef-99b0-6ece00cbdb96")
-	)
-	(wire
-		(pts
-			(xy 50.8 34.29) (xy 50.8 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "89044848-982a-48be-9a21-82a21ae64fc2")
-	)
-	(wire
-		(pts
 			(xy 161.29 101.6) (xy 165.1 101.6)
 		)
 		(stroke
@@ -5552,16 +3801,6 @@
 			(type default)
 		)
 		(uuid "89190a6d-5ede-4753-be3c-9d97c3f2b013")
-	)
-	(wire
-		(pts
-			(xy 31.75 26.67) (xy 31.75 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "898287ef-c464-42cb-b064-72fb769d9403")
 	)
 	(wire
 		(pts
@@ -5625,16 +3864,6 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 25.4) (xy 66.04 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9a73c696-0d2d-4673-9a12-d509fa620458")
-	)
-	(wire
-		(pts
 			(xy 93.98 107.95) (xy 118.11 107.95)
 		)
 		(stroke
@@ -5652,46 +3881,6 @@
 			(type default)
 		)
 		(uuid "9d07c330-1eaa-4ab8-9c72-77d173f713cc")
-	)
-	(wire
-		(pts
-			(xy 95.25 25.4) (xy 95.25 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a0452c71-abd3-4684-8dea-4afc8cb5a38b")
-	)
-	(wire
-		(pts
-			(xy 54.61 36.83) (xy 52.07 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a2a3dc06-b9d6-48f9-b6cf-5ab16d7c2267")
-	)
-	(wire
-		(pts
-			(xy 116.84 31.75) (xy 116.84 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a398ff4e-069f-4577-8049-d9f2ab97381d")
-	)
-	(wire
-		(pts
-			(xy 99.06 36.83) (xy 99.06 17.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a7859723-93ab-457a-9bff-8b786bd39033")
 	)
 	(wire
 		(pts
@@ -5725,26 +3914,6 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 48.26) (xy 52.07 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b3ac4a13-042d-4737-8c80-cbc0fcaebe5d")
-	)
-	(wire
-		(pts
-			(xy 50.8 25.4) (xy 54.61 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b5f9386d-5b99-4f79-a3dd-c55922a71554")
-	)
-	(wire
-		(pts
 			(xy 161.29 66.04) (xy 165.1 66.04)
 		)
 		(stroke
@@ -5765,16 +3934,6 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 45.72) (xy 107.95 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ba68b509-29ce-4b98-bd0b-529f1aaf2f58")
-	)
-	(wire
-		(pts
 			(xy 161.29 81.28) (xy 165.1 81.28)
 		)
 		(stroke
@@ -5792,26 +3951,6 @@
 			(type default)
 		)
 		(uuid "bfea4f79-79f0-4806-910b-5351d33e77e2")
-	)
-	(wire
-		(pts
-			(xy 130.81 24.13) (xy 139.7 24.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c18ae177-0b3c-44ff-960a-420edc2e1790")
-	)
-	(wire
-		(pts
-			(xy 77.47 24.13) (xy 66.04 24.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c224ec47-bf2a-4ff6-b7d2-eb7eb74d23c8")
 	)
 	(wire
 		(pts
@@ -5845,16 +3984,6 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 40.64) (xy 130.81 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e0c20cfd-5fe9-4bbf-be8d-11a3c6a26bfc")
-	)
-	(wire
-		(pts
 			(xy 118.11 106.68) (xy 120.65 106.68)
 		)
 		(stroke
@@ -5862,16 +3991,6 @@
 			(type default)
 		)
 		(uuid "e1423719-df4b-4be2-90a9-a4af432f8c3f")
-	)
-	(wire
-		(pts
-			(xy 116.84 48.26) (xy 130.81 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e1b4bf24-7a00-4afd-837e-dd4e17de6623")
 	)
 	(wire
 		(pts
@@ -5892,16 +4011,6 @@
 			(type default)
 		)
 		(uuid "e4345ba4-e413-49d1-b144-a993b4c5a2df")
-	)
-	(wire
-		(pts
-			(xy 54.61 39.37) (xy 54.61 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e4364be2-6244-410b-a48d-223499034928")
 	)
 	(wire
 		(pts
@@ -5965,26 +4074,6 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 24.13) (xy 130.81 24.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f77e22ec-3b7a-4503-88c9-15a4878c8f2b")
-	)
-	(wire
-		(pts
-			(xy 40.64 48.26) (xy 31.75 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f848943c-00c7-4b72-9ff6-fa92f70cf4cf")
-	)
-	(wire
-		(pts
 			(xy 252.73 77.47) (xy 254 77.47)
 		)
 		(stroke
@@ -6013,31 +4102,8 @@
 		)
 		(uuid "ffd12ff7-7abf-4e75-b2be-df293aed26ae")
 	)
-	(label "BUCK_5V"
-		(at 101.6 107.95 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "13e6a9d5-98cb-417d-9ef6-aa44ee415f44")
-	)
-	(label "BUCK_5V"
-		(at 133.35 24.13 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "34ce2b9e-8955-4513-ac74-a5cb0ecabc5d")
-	)
 	(label "CANH"
 		(at 246.38 74.93 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6048,7 +4114,6 @@
 	)
 	(label "CANL"
 		(at 246.38 77.47 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6056,50 +4121,6 @@
 			(justify left bottom)
 		)
 		(uuid "7aaa2270-68b0-484b-9c34-f3c688b08c2d")
-	)
-	(label "BUCK_GND"
-		(at 97.79 95.25 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8d2b3a87-df9d-45ae-8f7f-88bbe39d3699")
-	)
-	(label "BUCK_5V"
-		(at 186.69 43.18 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ea06487c-88c6-4582-bafb-fedbb81ec727")
-	)
-	(label "12V_IN"
-		(at 31.75 24.13 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f303edbb-18db-4189-a27b-f6f4254ef1e8")
-	)
-	(label "BUCK_GND"
-		(at 86.36 48.26 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ffe6c8c8-7f75-4395-a55a-b9199d496e6a")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -6162,130 +4183,6 @@
 			(project "Basic_Node_Board"
 				(path "/9602f2a9-59de-4c89-af09-0033871e87a5/20236dec-7072-4353-8cea-326a2b34f7fc"
 					(reference "#PWR011")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PROVE:RC1206FR-07115KL")
-		(at 116.84 27.94 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0718c076-3dba-47d4-a595-b3c65c0671a4")
-		(property "Reference" "R5"
-			(at 119.38 26.6699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "115k"
-			(at 119.38 29.2099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 117.856 28.194 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://138.2.231.237:8080/en/part/33/info"
-			(at 116.84 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES 115K OHM 1% 1/4W 1206"
-			(at 116.84 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" "Resistor"
-			(at 116.84 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RC1206FR-07115KL"
-			(at 116.84 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Yageo"
-			(at 116.84 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturing Status" ""
-			(at 116.84 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part-DB Footprint" "1206"
-			(at 116.84 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part-DB ID" "33"
-			(at 116.84 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6876bc68-cc58-4b36-8204-7d5d3fccee6a")
-		)
-		(pin "2"
-			(uuid "b01310df-cb18-48c3-89b8-21607e559ac3")
-		)
-		(instances
-			(project ""
-				(path "/9602f2a9-59de-4c89-af09-0033871e87a5/20236dec-7072-4353-8cea-326a2b34f7fc"
-					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -6537,6 +4434,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 93.98 107.95 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "20b278b0-cfa3-47b9-996d-e94ce7ecf9df")
+		(property "Reference" "#PWR08"
+			(at 97.79 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5VD"
+			(at 90.17 107.9499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 93.98 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 93.98 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ab7ccbaa-03df-4847-b780-e6820ba699a3")
+		)
+		(instances
+			(project "Basic_Node_Board"
+				(path "/9602f2a9-59de-4c89-af09-0033871e87a5/20236dec-7072-4353-8cea-326a2b34f7fc"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 226.06 69.85 0)
 		(unit 1)
@@ -6629,7 +4593,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x19_P1.00mm_Vertical"
 			(at 113.03 83.82 0)
 			(effects
 				(font
@@ -6969,54 +4933,17 @@
 		)
 	)
 	(symbol
-		(lib_name "AP64060WU-7_1")
-		(lib_id "PROVE:AP64060WU-7")
-		(at 54.61 34.29 0)
+		(lib_id "power:+5V")
+		(at 186.69 43.18 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "583640e2-7052-4890-b9a5-5411a6d5b70f")
-		(property "Reference" "U6"
-			(at 74.93 24.13 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "AP64060WU-7"
-			(at 74.93 26.67 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:TSOT-23-6"
-			(at 54.61 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://138.2.231.237:8080/en/part/31/info"
-			(at 54.61 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "IC REG BUCK ADJ 600MA TSOT26"
-			(at 54.61 34.29 0)
+		(uuid "5082b083-fd54-49da-8ba2-258381e371a1")
+		(property "Reference" "#PWR09"
+			(at 186.69 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7024,8 +4951,16 @@
 				(hide yes)
 			)
 		)
-		(property "Category" "IC/Power"
-			(at 54.61 34.29 0)
+		(property "Value" "+5VD"
+			(at 186.69 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 186.69 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7033,8 +4968,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "AP64060WU-7"
-			(at 54.61 34.29 0)
+		(property "Datasheet" ""
+			(at 186.69 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7042,64 +4977,22 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Diodes Incorporated"
-			(at 54.61 34.29 0)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 186.69 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(property "Manufacturing Status" ""
-			(at 54.61 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part-DB Footprint" "TSOT23-6"
-			(at 54.61 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part-DB ID" "31"
-			(at 54.61 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "6"
-			(uuid "7f42ce5b-bdee-4257-9ace-a8779c04524f")
-		)
-		(pin "5"
-			(uuid "262fd3d7-52ce-40c5-ac09-25ee5a12ea4b")
 		)
 		(pin "1"
-			(uuid "51303d7c-0974-40cd-94a4-d3a0805ac1f6")
-		)
-		(pin "4"
-			(uuid "f7ea51f1-3bdc-4bc0-9a16-16fcbbaabe3f")
-		)
-		(pin "3"
-			(uuid "60706831-145e-4037-8174-29d38328d787")
-		)
-		(pin "2"
-			(uuid "6d27f831-cb11-436c-8e52-7e012ad045a8")
+			(uuid "57a34157-244f-40ed-aa70-f914baba3536")
 		)
 		(instances
-			(project ""
+			(project "Basic_Node_Board"
 				(path "/9602f2a9-59de-4c89-af09-0033871e87a5/20236dec-7072-4353-8cea-326a2b34f7fc"
-					(reference "U6")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -7230,121 +5123,6 @@
 		)
 	)
 	(symbol
-		(lib_id "PROVE:EEE-1VA2R2NR")
-		(at 40.64 35.56 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7dbf42a4-b342-433a-864c-fc83f534284b")
-		(property "Reference" "C5"
-			(at 44.45 33.6549 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2.2u"
-			(at 44.45 36.1949 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_4x5.4"
-			(at 40.64 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://138.2.231.237:8080/en/part/32/info"
-			(at 40.64 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP ALUM 2.2UF 20% 35V SMD"
-			(at 40.64 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" "Capacitor"
-			(at 40.64 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "EEE-1VA2R2NR"
-			(at 40.64 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Panasonic"
-			(at 40.64 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturing Status" ""
-			(at 40.64 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part-DB ID" "32"
-			(at 40.64 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b498e4ac-606e-4419-a039-9cb46ae94f8f")
-		)
-		(pin "1"
-			(uuid "5286b446-951d-492a-b4b1-1e9fae7754fc")
-		)
-		(instances
-			(project ""
-				(path "/9602f2a9-59de-4c89-af09-0033871e87a5/20236dec-7072-4353-8cea-326a2b34f7fc"
-					(reference "C5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PROVE:VJ1206A300JXAAT")
 		(at 245.11 87.63 0)
 		(unit 1)
@@ -7463,130 +5241,6 @@
 			(project ""
 				(path "/9602f2a9-59de-4c89-af09-0033871e87a5/20236dec-7072-4353-8cea-326a2b34f7fc"
 					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PROVE:RNCP1206FTD22K1")
-		(at 116.84 44.45 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "84f56a0e-a820-42a6-bcd5-054111e0c457")
-		(property "Reference" "R6"
-			(at 119.38 43.1799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22.1k"
-			(at 119.38 45.7199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 117.856 44.704 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://138.2.231.237:8080/en/part/34/info"
-			(at 116.84 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES 22.1K OHM 1% 1/2W 1206"
-			(at 116.84 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" "Resistor"
-			(at 116.84 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RNCP1206FTD22K1"
-			(at 116.84 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Stackpole Electronics"
-			(at 116.84 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturing Status" ""
-			(at 116.84 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part-DB Footprint" "1206"
-			(at 116.84 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part-DB ID" "34"
-			(at 116.84 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b96c3e71-5f41-443c-974c-4ec670189869")
-		)
-		(pin "2"
-			(uuid "fe82957f-709e-4abc-a228-e5abf77e46b4")
-		)
-		(instances
-			(project ""
-				(path "/9602f2a9-59de-4c89-af09-0033871e87a5/20236dec-7072-4353-8cea-326a2b34f7fc"
-					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -7739,7 +5393,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x19_P1.00mm_Vertical"
 			(at 170.18 83.82 0)
 			(effects
 				(font
@@ -7893,254 +5547,6 @@
 			(project "Basic_Node_Board"
 				(path "/9602f2a9-59de-4c89-af09-0033871e87a5/20236dec-7072-4353-8cea-326a2b34f7fc"
 					(reference "#PWR013")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PROVE:CL31A106KPHNNNE")
-		(at 137.16 36.83 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b6217023-cee5-4114-ad68-766154dca1df")
-		(property "Reference" "C7"
-			(at 140.97 35.5599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10u"
-			(at 140.97 38.0999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
-			(at 138.1252 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://138.2.231.237:8080/en/part/11/info"
-			(at 137.16 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 10UF 10V X5R 1206"
-			(at 137.16 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" "Capacitor"
-			(at 137.16 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CL31A106KPHNNNE"
-			(at 137.16 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Samsung"
-			(at 137.16 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturing Status" ""
-			(at 137.16 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part-DB Footprint" "1206"
-			(at 137.16 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part-DB ID" "11"
-			(at 137.16 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "13db992d-c10c-457d-8d05-c76178aadaa5")
-		)
-		(pin "2"
-			(uuid "16574797-08dc-4085-bf6b-f7f9408fdd8b")
-		)
-		(instances
-			(project "Basic_Node_Board"
-				(path "/9602f2a9-59de-4c89-af09-0033871e87a5/20236dec-7072-4353-8cea-326a2b34f7fc"
-					(reference "C7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PROVE:CL31A106KPHNNNE")
-		(at 125.73 36.83 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "be005d18-4311-413e-962b-aef7d2655337")
-		(property "Reference" "C6"
-			(at 129.54 35.5599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10u"
-			(at 129.54 38.0999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
-			(at 126.6952 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://138.2.231.237:8080/en/part/11/info"
-			(at 125.73 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 10UF 10V X5R 1206"
-			(at 125.73 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" "Capacitor"
-			(at 125.73 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CL31A106KPHNNNE"
-			(at 125.73 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Samsung"
-			(at 125.73 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturing Status" ""
-			(at 125.73 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part-DB Footprint" "1206"
-			(at 125.73 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part-DB ID" "11"
-			(at 125.73 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5163e028-eab7-4690-8945-e0a6a9540271")
-		)
-		(pin "2"
-			(uuid "0ddad037-11cd-424e-b668-276d181b9de4")
-		)
-		(instances
-			(project ""
-				(path "/9602f2a9-59de-4c89-af09-0033871e87a5/20236dec-7072-4353-8cea-326a2b34f7fc"
-					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -8608,119 +6014,6 @@
 		)
 	)
 	(symbol
-		(lib_id "PROVE:74404054100")
-		(at 81.28 24.13 90)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e26284bb-0e75-461f-a6a3-91240c6d9fbc")
-		(property "Reference" "L1"
-			(at 81.28 19.05 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10u"
-			(at 81.28 21.59 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "PROVE:WE-LQS_5040"
-			(at 81.28 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://138.2.231.237:8080/en/part/35/info"
-			(at 81.28 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "FIXED IND 10UH 2.1A 64 MOHM SMD"
-			(at 81.28 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" "Inductor"
-			(at 81.28 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "74404054100"
-			(at 81.28 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Wurth Elektronik"
-			(at 81.28 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturing Status" ""
-			(at 81.28 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part-DB ID" "35"
-			(at 81.28 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4916ad1d-59e8-448b-9243-20a02fa5cb25")
-		)
-		(pin "2"
-			(uuid "f5c6c6fa-2073-4a27-8d72-de514f7ed32c")
-		)
-		(instances
-			(project ""
-				(path "/9602f2a9-59de-4c89-af09-0033871e87a5/20236dec-7072-4353-8cea-326a2b34f7fc"
-					(reference "L1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 186.69 82.55 0)
 		(unit 1)
@@ -8852,198 +6145,6 @@
 		)
 	)
 	(symbol
-		(lib_name "1206B104K500CT_1")
-		(lib_id "PROVE:1206B104K500CT")
-		(at 58.42 25.4 90)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "eca0fca5-bf6b-445e-93e3-13dce3d55728")
-		(property "Reference" "C4"
-			(at 58.42 17.78 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0.1u"
-			(at 58.42 20.32 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
-			(at 62.23 24.4348 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://138.2.231.237:8080/en/part/28/info"
-			(at 58.42 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 0.1UF 50V X7R 1206"
-			(at 58.42 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" "Capacitor"
-			(at 58.42 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "1206B104K500CT"
-			(at 58.42 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Walsin Technology Corporation"
-			(at 58.42 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturing Status" ""
-			(at 58.42 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part-DB Footprint" "1206"
-			(at 58.42 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part-DB ID" "28"
-			(at 58.42 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "52621192-9d07-490d-b15d-1f8a1c786951")
-		)
-		(pin "2"
-			(uuid "f45cb77b-92d6-4faf-ab6e-ede6dccda273")
-		)
-		(instances
-			(project ""
-				(path "/9602f2a9-59de-4c89-af09-0033871e87a5/20236dec-7072-4353-8cea-326a2b34f7fc"
-					(reference "C4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 26.67 24.13 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ed3462a0-3aee-44d9-8534-dbe10ed22e7f")
-		(property "Reference" "J2"
-			(at 26.67 17.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x02"
-			(at 26.67 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 26.67 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 26.67 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 26.67 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f7b1c399-1f90-4eb9-b6fc-566901cb443c")
-		)
-		(pin "2"
-			(uuid "6446b030-2690-48b7-9725-6b24194bae89")
-		)
-		(instances
-			(project ""
-				(path "/9602f2a9-59de-4c89-af09-0033871e87a5/20236dec-7072-4353-8cea-326a2b34f7fc"
-					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
 		(at 259.08 74.93 0)
 		(mirror y)
@@ -9069,7 +6170,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock_TE-Connectivity:TerminalBlock_TE_282834-2_1x02_P2.54mm_Horizontal"
 			(at 259.08 74.93 0)
 			(effects
 				(font

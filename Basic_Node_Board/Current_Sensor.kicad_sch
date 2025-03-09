@@ -5,32 +5,40 @@
 	(uuid "e54df08f-93c8-4a94-9525-c7a286a9846b")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Device:R_Small_US"
+		(symbol "PROVE:CSR1206FK30L0"
 			(pin_numbers hide)
 			(pin_names
-				(offset 0.254) hide)
-			(exclude_from_sim no)
+				(offset 0)
+			)
+			(exclude_from_sim yes)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "R"
-				(at 0.762 0.508 0)
+				(at 2.54 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Value" "R_Small_US"
-				(at 0.762 -1.016 0)
+			(property "Value" "30m"
+				(at -2.54 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+				(at 1.016 -0.254 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://138.2.231.237:8080/en/part/38/info"
 				(at 0 0 0)
 				(effects
 					(font
@@ -39,7 +47,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Description" "RES 0.03 OHM 1% 1/2W 1206"
 				(at 0 0 0)
 				(effects
 					(font
@@ -48,7 +56,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Resistor, small US symbol"
+			(property "Category" "Resistor"
 				(at 0 0 0)
 				(effects
 					(font
@@ -57,7 +65,43 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "r resistor"
+			(property "MPN" "CSR1206FK30L0"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Stackpole Electronics"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturing Status" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part-DB Footprint" "1206"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part-DB ID" "38"
 				(at 0 0 0)
 				(effects
 					(font
@@ -75,10 +119,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "R_Small_US_1_1"
+			(symbol "CSR1206FK30L0_0_1"
 				(polyline
 					(pts
-						(xy 0 0) (xy 1.016 -0.381) (xy 0 -0.762) (xy -1.016 -1.143) (xy 0 -1.524)
+						(xy 0 -2.286) (xy 0 -2.54)
 					)
 					(stroke
 						(width 0)
@@ -90,7 +134,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 1.524) (xy 1.016 1.143) (xy 0 0.762) (xy -1.016 0.381) (xy 0 0)
+						(xy 0 2.286) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -100,9 +144,47 @@
 						(type none)
 					)
 				)
+				(polyline
+					(pts
+						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 1.016 0.381) (xy 0 0) (xy -1.016 -0.381) (xy 0 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "CSR1206FK30L0_1_1"
 				(pin passive line
-					(at 0 2.54 270)
-					(length 1.016)
+					(at 0 3.81 270)
+					(length 1.27)
 					(name "~"
 						(effects
 							(font
@@ -119,8 +201,8 @@
 					)
 				)
 				(pin passive line
-					(at 0 -2.54 90)
-					(length 1.016)
+					(at 0 -3.81 90)
+					(length 1.27)
 					(name "~"
 						(effects
 							(font
@@ -839,22 +921,22 @@
 		)
 	)
 	(junction
-		(at 157.48 54.61)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1f4cee6a-4347-41a7-9353-01d649ba6fa3")
-	)
-	(junction
 		(at 157.48 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "3a0fce7b-9a95-4a45-9ee9-031f55e4d7d9")
+		(uuid "83691c6c-3beb-4835-8d8d-35a5ae9f07d0")
 	)
 	(junction
 		(at 157.48 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "850467da-0c00-4268-b4b1-9940663a2ccb")
+	)
+	(junction
+		(at 148.59 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "89a3d2ad-7484-4f22-b5dc-f519ffe940a6")
 	)
 	(junction
 		(at 157.48 52.07)
@@ -868,16 +950,6 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 52.07) (xy 157.48 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1ce4e1d6-4aa2-4ac6-aa95-27c7bf1b2306")
-	)
-	(wire
-		(pts
 			(xy 157.48 59.69) (xy 157.48 81.28)
 		)
 		(stroke
@@ -888,17 +960,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 54.61) (xy 157.48 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "370b88e9-0f8e-4b80-bb99-b3523e87d985")
-	)
-	(wire
-		(pts
-			(xy 140.97 54.61) (xy 140.97 57.15)
+			(xy 140.97 52.07) (xy 140.97 57.15)
 		)
 		(stroke
 			(width 0)
@@ -965,6 +1027,16 @@
 			(type default)
 		)
 		(uuid "8946c124-88ab-4e59-8775-b0ed2e209e1a")
+	)
+	(wire
+		(pts
+			(xy 140.97 52.07) (xy 148.59 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9dfd2a65-188d-426f-9380-ddfb4c9dad78")
 	)
 	(wire
 		(pts
@@ -1142,6 +1214,130 @@
 			(project "Basic_Node_Board"
 				(path "/9602f2a9-59de-4c89-af09-0033871e87a5/171b48c4-31ba-4ad4-b68c-0c27aedd5528"
 					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PROVE:CSR1206FK30L0")
+		(at 157.48 55.88 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "33c794fa-3ad8-4de2-8369-82ce9661dc87")
+		(property "Reference" "R1"
+			(at 160.02 54.6099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "30m"
+			(at 160.02 57.1499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 158.496 56.134 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://138.2.231.237:8080/en/part/38/info"
+			(at 157.48 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 0.03 OHM 1% 1/2W 1206"
+			(at 157.48 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Resistor"
+			(at 157.48 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CSR1206FK30L0"
+			(at 157.48 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Stackpole Electronics"
+			(at 157.48 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturing Status" ""
+			(at 157.48 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part-DB Footprint" "1206"
+			(at 157.48 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part-DB ID" "38"
+			(at 157.48 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ca45588d-a097-4920-8a5f-66c013456c7b")
+		)
+		(pin "1"
+			(uuid "b351b1ea-1be0-4270-9deb-bee469728715")
+		)
+		(instances
+			(project ""
+				(path "/9602f2a9-59de-4c89-af09-0033871e87a5/171b48c4-31ba-4ad4-b68c-0c27aedd5528"
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -1357,76 +1553,6 @@
 			(project "Basic_Node_Board"
 				(path "/9602f2a9-59de-4c89-af09-0033871e87a5/171b48c4-31ba-4ad4-b68c-0c27aedd5528"
 					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 157.48 57.15 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6cf155b2-4526-40ed-8574-6f8aa15759dc")
-		(property "Reference" "R1"
-			(at 160.02 55.8799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "30mΩ"
-			(at 160.02 58.4199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 157.48 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 157.48 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small US symbol"
-			(at 157.48 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a2e38c55-7171-4bb6-857d-41cdefb9e1f8")
-		)
-		(pin "1"
-			(uuid "3a22e732-f483-4af8-92b5-ebaa21e0f11c")
-		)
-		(instances
-			(project "Basic_Node_Board"
-				(path "/9602f2a9-59de-4c89-af09-0033871e87a5/171b48c4-31ba-4ad4-b68c-0c27aedd5528"
-					(reference "R1")
 					(unit 1)
 				)
 			)
