@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "PROVE")(type "KiCad")(uri "${PROVE_PARTS_LIB_DIR}/PROVE-footprints.pretty")(options "")(descr ""))
+)
