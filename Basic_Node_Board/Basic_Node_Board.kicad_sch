@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "9602f2a9-59de-4c89-af09-0033871e87a5")
 	(paper "A4")
 	(title_block
@@ -10,8 +10,54 @@
 	)
 	(lib_symbols)
 	(sheet
+		(at 156.21 95.25)
+		(size 58.42 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "10d14dc3-2b83-46d1-82b9-6acb009ce1b4")
+		(property "Sheetname" "24V to 5.3V Converter"
+			(at 156.21 94.5384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "24V_to_5.3V_Converter.kicad_sch"
+			(at 156.21 118.6946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Basic_Node_Board"
+				(path "/9602f2a9-59de-4c89-af09-0033871e87a5"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 152.4 21.59)
 		(size 83.82 45.72)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -50,6 +96,10 @@
 	(sheet
 		(at 31.75 88.9)
 		(size 90.17 76.2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -88,6 +138,10 @@
 	(sheet
 		(at 31.75 22.86)
 		(size 66.04 45.72)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -128,4 +182,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )
