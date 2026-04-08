@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.5,
-          "height": 0.85,
-          "width": 0.85
+          "drill": 0.8,
+          "height": 1.27,
+          "width": 2.54
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -451,7 +451,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Microcontroller.kicad_pro",
+    "filename": "24V_to_5.3V_Converter.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -611,7 +611,7 @@
   },
   "sheets": [
     [
-      "c58806c5-432f-4c41-8983-8e5fd30a3703",
+      "c10d8741-5d02-42f6-9f98-d19369d73af6",
       "Root"
     ]
   ],
