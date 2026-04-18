@@ -6652,23 +6652,23 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at 0 0 0)
+			(property "Reference" "U1"
+				(at 0 1.27 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" ""
-				(at 0 0 0)
+			(property "Value" "~"
+				(at 0 -1.27 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Library:E22P-915M30S"
 				(at 0 0 0)
 				(effects
 					(font
@@ -6695,7 +6695,98 @@
 					(hide yes)
 				)
 			)
+			(symbol "E22P-915M30S_0_1"
+				(rectangle
+					(start -12.7 -44.45)
+					(end -12.7 -44.45)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 -44.45)
+					(end 10.16 -44.45)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 26.67 -8.89)
+					(end 26.67 -8.89)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 29.21 -7.62)
+					(end 29.21 -7.62)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 30.48 -8.89)
+					(end 30.48 -8.89)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 31.75 -21.59)
+					(end 31.75 -21.59)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 36.83 -21.59)
+					(end 36.83 -21.59)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
 			(symbol "E22P-915M30S_1_1"
+				(rectangle
+					(start -12.7 1.27)
+					(end 11.43 -43.18)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 255 238 0 1)
+					)
+					(fill
+						(type background)
+					)
+				)
 				(pin input line
 					(at -11.43 -3.81 0)
 					(length 2.54)
@@ -10717,7 +10808,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library:E22P-915M30S"
+		(property "Footprint" "PROVE-footprints:E22P-915M30S_revised"
 			(at 38.1 120.65 0)
 			(effects
 				(font
@@ -14904,7 +14995,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Vertical"
+		(property "Footprint" "Connector_PinSocket_1.00mm:PinSocket_1x02_P1.00mm_Vertical"
 			(at 26.67 49.53 0)
 			(effects
 				(font
@@ -14984,7 +15075,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Vertical"
+		(property "Footprint" "Connector_PinSocket_1.00mm:PinSocket_1x02_P1.00mm_Vertical"
 			(at 276.86 139.7 0)
 			(effects
 				(font
