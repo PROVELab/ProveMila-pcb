@@ -9328,7 +9328,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "243k"
+		(property "Value" "147kOhm"
 			(at 104.14 71.1199 90)
 			(effects
 				(font
@@ -9894,7 +9894,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "82nF"
+		(property "Value" "12nF"
 			(at 64.77 85.0899 90)
 			(effects
 				(font
@@ -10896,7 +10896,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100pF"
+		(property "Value" "10pF"
 			(at 78.74 74.9299 90)
 			(effects
 				(font
@@ -11405,7 +11405,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "5.1k"
+		(property "Value" "15.4kOhm"
 			(at 64.77 67.3099 90)
 			(effects
 				(font
@@ -11762,7 +11762,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "30uF"
+		(property "Value" "4.7uF"
 			(at 48.26 48.2599 90)
 			(effects
 				(font
@@ -12121,7 +12121,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "11kohn"
 			(at 248.92 82.5499 90)
 			(effects
 				(font
@@ -12276,7 +12276,7 @@
 				)
 			)
 		)
-		(property "Value" "47uH"
+		(property "Value" "27uH"
 			(at 205.74 41.91 0)
 			(effects
 				(font
@@ -13422,7 +13422,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "56.2k"
+		(property "Value" "61.9kOhn"
 			(at 250.19 62.2299 90)
 			(effects
 				(font
