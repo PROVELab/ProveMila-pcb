@@ -10,7 +10,7 @@
 	)
 	(lib_symbols)
 	(sheet
-		(at 156.21 95.25)
+		(at 157.48 101.6)
 		(size 58.42 22.86)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -26,7 +26,7 @@
 		)
 		(uuid "10d14dc3-2b83-46d1-82b9-6acb009ce1b4")
 		(property "Sheetname" "24V to 5.3V Converter"
-			(at 156.21 94.5384 0)
+			(at 157.48 100.8884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35,7 +35,7 @@
 			)
 		)
 		(property "Sheetfile" "24V_to_5.3V_Converter.kicad_sch"
-			(at 156.21 118.6946 0)
+			(at 157.48 125.0446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -52,8 +52,8 @@
 		)
 	)
 	(sheet
-		(at 152.4 21.59)
-		(size 83.82 45.72)
+		(at 92.71 22.86)
+		(size 67.31 38.1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -67,8 +67,8 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "171b48c4-31ba-4ad4-b68c-0c27aedd5528")
-		(property "Sheetname" "Current_Sensor"
-			(at 152.4 20.8784 0)
+		(property "Sheetname" "Power Distribution"
+			(at 92.71 22.1484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -77,7 +77,7 @@
 			)
 		)
 		(property "Sheetfile" "current_sensor.kicad_sch"
-			(at 152.4 67.8946 0)
+			(at 92.71 61.5446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -136,8 +136,102 @@
 		)
 	)
 	(sheet
+		(at 157.48 133.35)
+		(size 50.8 24.13)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8db80302-9bb8-4dec-a817-f6b3ba6aa43e")
+		(property "Sheetname" "Switch"
+			(at 157.48 132.6384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Switch.kicad_sch"
+			(at 157.48 158.0646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "GND" passive
+			(at 208.28 135.89 0)
+			(uuid "0ff7ef56-2cda-4da6-b44b-728f959f4eb5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Basic_Node_Board"
+				(path "/9602f2a9-59de-4c89-af09-0033871e87a5"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 177.8 24.13)
+		(size 60.96 31.75)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d422bdf5-0fc6-47c2-a6f7-66ea79335ef0")
+		(property "Sheetname" "Contactor MOSFETs"
+			(at 177.8 23.4184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Contactor_MOSFETs.kicad_sch"
+			(at 177.8 56.4646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Basic_Node_Board"
+				(path "/9602f2a9-59de-4c89-af09-0033871e87a5"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 31.75 22.86)
-		(size 66.04 45.72)
+		(size 46.99 26.67)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -161,7 +255,7 @@
 			)
 		)
 		(property "Sheetfile" "power_supply.kicad_sch"
-			(at 31.75 69.1646 0)
+			(at 31.75 50.1146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
