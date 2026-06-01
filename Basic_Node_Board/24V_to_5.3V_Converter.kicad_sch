@@ -3864,7 +3864,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "CRCW0402118KFKED"
+		(property "Value" "147kOhms"
 			(at 107.95 107.9499 90)
 			(effects
 				(font
@@ -3941,7 +3941,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "B560C-13-F"
+		(property "Value" "SS34"
 			(at 187.96 93.9799 90)
 			(effects
 				(font
@@ -4018,7 +4018,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C0805C122J5GACTU"
+		(property "Value" "12nF"
 			(at 68.58 121.9199 90)
 			(effects
 				(font
@@ -4262,7 +4262,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CL05C110JB5NNNC"
+		(property "Value" "10pF"
 			(at 82.55 111.7599 90)
 			(effects
 				(font
@@ -4509,7 +4509,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "RC0201FR-0723K7L"
+		(property "Value" "15.4k Ohms"
 			(at 68.58 104.1399 90)
 			(effects
 				(font
@@ -4658,7 +4658,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "GRM31CR71H475KA12L"
+		(property "Value" "4.7uF"
 			(at 52.07 85.0899 90)
 			(effects
 				(font
@@ -4805,7 +4805,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "CRCW040261K9FKED"
+		(property "Value" "61.9kOhms"
 			(at 228.6 100.3299 90)
 			(effects
 				(font
@@ -4882,7 +4882,7 @@
 				)
 			)
 		)
-		(property "Value" "SRN8040-100M"
+		(property "Value" "27uH"
 			(at 209.55 78.74 0)
 			(effects
 				(font
@@ -5031,7 +5031,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10TPE47MAZB"
+		(property "Value" "47uF"
 			(at 262.89 106.6799 90)
 			(effects
 				(font
@@ -5148,7 +5148,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "08053C104KAT2A"
+		(property "Value" "100nF"
 			(at 177.8 78.7399 90)
 			(effects
 				(font
@@ -5276,7 +5276,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "CRCW040211K0FKED"
+		(property "Value" "11kOhms"
 			(at 229.87 120.6499 90)
 			(effects
 				(font
