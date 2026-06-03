@@ -629,6 +629,10 @@
     [
       "20236dec-7072-4353-8cea-326a2b34f7fc",
       "Microcontroller"
+    ],
+    [
+      "10d14dc3-2b83-46d1-82b9-6acb009ce1b4",
+      "24V to 5.3V Converter"
     ]
   ],
   "text_variables": {}
