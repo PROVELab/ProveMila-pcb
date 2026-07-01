@@ -3910,7 +3910,7 @@
 		(instances
 			(project "Basic_Node_Board"
 				(path "/9602f2a9-59de-4c89-af09-0033871e87a5/10d14dc3-2b83-46d1-82b9-6acb009ce1b4"
-					(reference "R6")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -4231,7 +4231,7 @@
 		(instances
 			(project "Basic_Node_Board"
 				(path "/9602f2a9-59de-4c89-af09-0033871e87a5/10d14dc3-2b83-46d1-82b9-6acb009ce1b4"
-					(reference "U6")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -4555,7 +4555,7 @@
 		(instances
 			(project "Basic_Node_Board"
 				(path "/9602f2a9-59de-4c89-af09-0033871e87a5/10d14dc3-2b83-46d1-82b9-6acb009ce1b4"
-					(reference "R5")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -4627,7 +4627,7 @@
 		(instances
 			(project "Basic_Node_Board"
 				(path "/9602f2a9-59de-4c89-af09-0033871e87a5/10d14dc3-2b83-46d1-82b9-6acb009ce1b4"
-					(reference "#PWR0101")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -4852,7 +4852,7 @@
 		(instances
 			(project "Basic_Node_Board"
 				(path "/9602f2a9-59de-4c89-af09-0033871e87a5/10d14dc3-2b83-46d1-82b9-6acb009ce1b4"
-					(reference "R7")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -5000,7 +5000,7 @@
 		(instances
 			(project "Basic_Node_Board"
 				(path "/9602f2a9-59de-4c89-af09-0033871e87a5/10d14dc3-2b83-46d1-82b9-6acb009ce1b4"
-					(reference "#PWR0102")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -5117,7 +5117,7 @@
 		(instances
 			(project "Basic_Node_Board"
 				(path "/9602f2a9-59de-4c89-af09-0033871e87a5/10d14dc3-2b83-46d1-82b9-6acb009ce1b4"
-					(reference "C7")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -5245,7 +5245,7 @@
 		(instances
 			(project ""
 				(path "/9602f2a9-59de-4c89-af09-0033871e87a5/10d14dc3-2b83-46d1-82b9-6acb009ce1b4"
-					(reference "C8")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -5322,7 +5322,7 @@
 		(instances
 			(project "Basic_Node_Board"
 				(path "/9602f2a9-59de-4c89-af09-0033871e87a5/10d14dc3-2b83-46d1-82b9-6acb009ce1b4"
-					(reference "R8")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -5397,7 +5397,7 @@
 		(instances
 			(project "Basic_Node_Board"
 				(path "/9602f2a9-59de-4c89-af09-0033871e87a5/10d14dc3-2b83-46d1-82b9-6acb009ce1b4"
-					(reference "J2")
+					(reference "J12")
 					(unit 1)
 				)
 			)
