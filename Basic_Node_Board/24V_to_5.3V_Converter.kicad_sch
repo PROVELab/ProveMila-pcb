@@ -4509,7 +4509,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "15.4kOhms"
+		(property "Value" "15.4k Ohms"
 			(at 68.58 104.1399 90)
 			(effects
 				(font
@@ -4805,7 +4805,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "61.1kOhm"
+		(property "Value" "61.9kOhms"
 			(at 228.6 100.3299 90)
 			(effects
 				(font
@@ -5276,7 +5276,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "11kOhns"
+		(property "Value" "11kOhms"
 			(at 229.87 120.6499 90)
 			(effects
 				(font
