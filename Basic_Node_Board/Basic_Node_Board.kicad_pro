@@ -564,6 +564,240 @@
           "label": "Description",
           "name": "Description",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "A_min",
+          "name": "A_min",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "A_nom",
+          "name": "A_nom",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Availability",
+          "name": "Availability",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Category",
+          "name": "Category",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Check_prices",
+          "name": "Check_prices",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "D_max",
+          "name": "D_max",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "D_min",
+          "name": "D_min",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "D_nom",
+          "name": "D_nom",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description_1",
+          "name": "Description_1",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DigiKey_Part_Number",
+          "name": "DigiKey_Part_Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "E_max",
+          "name": "E_max",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "E_min",
+          "name": "E_min",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "E_nom",
+          "name": "E_nom",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Height",
+          "name": "Height",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "L1_max",
+          "name": "L1_max",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "L1_min",
+          "name": "L1_min",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "L1_nom",
+          "name": "L1_nom",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "L_max",
+          "name": "L_max",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "L_min",
+          "name": "L_min",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "L_nom",
+          "name": "L_nom",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MANUFACTURER",
+          "name": "MANUFACTURER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MAXIMUM_PACKAGE_HEIGHT",
+          "name": "MAXIMUM_PACKAGE_HEIGHT",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MF",
+          "name": "MF",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MP",
+          "name": "MP",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MPN",
+          "name": "MPN",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer",
+          "name": "Manufacturer",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer_Name",
+          "name": "Manufacturer_Name",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer_Part_Number",
+          "name": "Manufacturer_Part_Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturing Status",
+          "name": "Manufacturing Status",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mouser Part Number",
+          "name": "Mouser Part Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mouser Price/Stock",
+          "name": "Mouser Price/Stock",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PARTREV",
+          "name": "PARTREV",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Package",
+          "name": "Package",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Part-DB Footprint",
+          "name": "Part-DB Footprint",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Part-DB ID",
+          "name": "Part-DB ID",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Price",
+          "name": "Price",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "STANDARD",
+          "name": "STANDARD",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SnapEDA_Link",
+          "name": "SnapEDA_Link",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "A_max",
+          "name": "A_max",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -624,11 +858,23 @@
     ],
     [
       "171b48c4-31ba-4ad4-b68c-0c27aedd5528",
-      "Current_Sensor"
+      "Power Distribution"
     ],
     [
       "20236dec-7072-4353-8cea-326a2b34f7fc",
       "Microcontroller"
+    ],
+    [
+      "10d14dc3-2b83-46d1-82b9-6acb009ce1b4",
+      "24V to 5.3V Converter"
+    ],
+    [
+      "8db80302-9bb8-4dec-a817-f6b3ba6aa43e",
+      "Switch"
+    ],
+    [
+      "d422bdf5-0fc6-47c2-a6f7-66ea79335ef0",
+      "Contactor MOSFETs"
     ]
   ],
   "text_variables": {}

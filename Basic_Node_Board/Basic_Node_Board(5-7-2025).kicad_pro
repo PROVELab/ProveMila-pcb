@@ -95,7 +95,10 @@
         "extra_footprint": "warning",
         "footprint": "error",
         "footprint_filters_mismatch": "ignore",
+<<<<<<< HEAD
         "footprint_symbol_field_mismatch": "warning",
+=======
+>>>>>>> main
         "footprint_symbol_mismatch": "warning",
         "footprint_type_mismatch": "warning",
         "hole_clearance": "error",
@@ -134,8 +137,11 @@
         "too_many_vias": "error",
         "track_angle": "error",
         "track_dangling": "warning",
+<<<<<<< HEAD
         "track_not_centered_on_via": "ignore",
         "track_on_post_machined_layer": "error",
+=======
+>>>>>>> main
         "track_segment_length": "error",
         "track_width": "error",
         "tracks_crossing": "error",
@@ -528,7 +534,11 @@
       }
     ],
     "meta": {
+<<<<<<< HEAD
       "version": 5
+=======
+      "version": 4
+>>>>>>> main
     },
     "net_colors": null,
     "netclass_assignments": null,
@@ -538,7 +548,7 @@
     "last_paths": {
       "gencad": "",
       "idf": "",
-      "netlist": "",
+      "netlist": "./",
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
