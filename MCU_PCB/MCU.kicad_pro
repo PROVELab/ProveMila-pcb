@@ -946,7 +946,7 @@
         "uuid": "c58806c5-432f-4c41-8983-8e5fd30a3703"
       }
     ],
-    "used_designators": "Cout1,L1,Rfbt1-3,R_TERM1,Rfbb1,Rt1,R1-10,M1,M3,C1-7,Cin1,CR1,#PWR1-15,#PWR102-103,J1-7,RCmp1,D1,U1-3,U6,Cboot1,Ccmp1-2,M3_1-2",
+    "used_designators": "J1-7,#PWR1-15,#PWR102-103,CR1,Cin1,C1-7,M3_1-2,Ccmp1-2,Cboot1,RCmp1,U1-3,U6,D1,R_TERM1,R1-10,M1,M3,Rfbt1-3,L1,Cout1,Rfbb1,Rt1",
     "variants": []
   },
   "sheets": [

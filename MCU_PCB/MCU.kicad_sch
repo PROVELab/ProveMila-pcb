@@ -5630,7 +5630,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a19422dc-6761-459b-85eb-63ec9dbbf9be")
-		(property "Reference" "J1"
+		(property "Reference" "J3"
 			(at 27.94 107.95 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5704,7 +5704,7 @@
 		(instances
 			(project "MCU"
 				(path "/c58806c5-432f-4c41-8983-8e5fd30a3703"
-					(reference "J1")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -5949,7 +5949,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c5dc7f08-c41f-4e0c-975e-aaf85bda8c64")
-		(property "Reference" "U1"
+		(property "Reference" "U3"
 			(at 120.65 101.6 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6324,7 +6324,7 @@
 			)
 			(project "MCU"
 				(path "/c58806c5-432f-4c41-8983-8e5fd30a3703"
-					(reference "U1")
+					(reference "U3")
 					(unit 1)
 				)
 			)
