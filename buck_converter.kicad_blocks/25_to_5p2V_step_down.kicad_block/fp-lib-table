@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "PROVE-footprints") (type "KiCad") (uri "/home/torrey/Documents/Kicad/ProveMila-partslib/PROVE-footprints.pretty") (options "") (descr ""))
+)
