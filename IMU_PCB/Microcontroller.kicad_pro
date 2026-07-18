@@ -40,8 +40,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 3.0,
-          "width": 2.29
+          "height": 0.85,
+          "width": 0.85
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -63,8 +63,8 @@
           "min_clearance": 0.5,
           "min_island_area": 10.0,
           "min_thickness": 0.25,
-          "pad_connection": 2,
-          "remove_islands": 1,
+          "pad_connection": 1,
+          "remove_islands": 0,
           "thermal_relief_gap": 0.5,
           "thermal_relief_spoke_width": 0.5
         }
@@ -616,276 +616,12 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
-        },
-        {
-          "group_by": false,
-          "label": "A_min",
-          "name": "A_min",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "A_nom",
-          "name": "A_nom",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Availability",
-          "name": "Availability",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Category",
-          "name": "Category",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Check_prices",
-          "name": "Check_prices",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "D_max",
-          "name": "D_max",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "D_min",
-          "name": "D_min",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "D_nom",
-          "name": "D_nom",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Description_1",
-          "name": "Description_1",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "DigiKey_Part_Number",
-          "name": "DigiKey_Part_Number",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "E_max",
-          "name": "E_max",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "E_min",
-          "name": "E_min",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "E_nom",
-          "name": "E_nom",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Height",
-          "name": "Height",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "L1_max",
-          "name": "L1_max",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "L1_min",
-          "name": "L1_min",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "L1_nom",
-          "name": "L1_nom",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "L_max",
-          "name": "L_max",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "L_min",
-          "name": "L_min",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "L_nom",
-          "name": "L_nom",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Manufacturer",
-          "name": "Manufacturer",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Manufacturer_Name",
-          "name": "Manufacturer_Name",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Manufacturer_Part_Number",
-          "name": "Manufacturer_Part_Number",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Manufacturing Status",
-          "name": "Manufacturing Status",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "MAXIMUM_PACKAGE_HEIGHT",
-          "name": "MAXIMUM_PACKAGE_HEIGHT",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "MF",
-          "name": "MF",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Mouser Part Number",
-          "name": "Mouser Part Number",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Mouser Price/Stock",
-          "name": "Mouser Price/Stock",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "MP",
-          "name": "MP",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "MPN",
-          "name": "MPN",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Package",
-          "name": "Package",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Part-DB Footprint",
-          "name": "Part-DB Footprint",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Part-DB ID",
-          "name": "Part-DB ID",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "PARTREV",
-          "name": "PARTREV",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Price",
-          "name": "Price",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "SnapEDA_Link",
-          "name": "SnapEDA_Link",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "STANDARD",
-          "name": "STANDARD",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "A_max",
-          "name": "A_max",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Description",
-          "name": "Description",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "#",
-          "name": "${ITEM_NUMBER}",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Purchase Link",
-          "name": "Purchase Link",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "purchaseLink",
-          "name": "purchaseLink",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Purchase",
-          "name": "Purchase",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Specs",
-          "name": "Specs",
-          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "",
+      "name": "Default Editing",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -934,20 +670,20 @@
     "top_level_sheets": [
       {
         "filename": "Microcontroller.kicad_sch",
-        "name": "Microcontroller",
+        "name": "IMU Board",
         "uuid": "c58806c5-432f-4c41-8983-8e5fd30a3703"
       }
     ],
-    "used_designators": "R_TERM1,L1-2,Cout1-2,Rfbt1-2,CR1-2,#PWR1-18,#PWR103,C1-7,C10,C12-15,D1-2,U1-5,U7,J1-3,H1-2,R1-9,R13-16,M1,Ccmp1-4,Cboot1-2,M3_1,Ccomp1,Cin1-2,RComp1,Rfbb1-2,Rt1-2,RCmp1-2",
+    "used_designators": "Rfbb1,Rt1,H1-3,#PWR4,Cboot1,Ccmp1-2,Cin1-2,J5,RCmp1,D1,U1,Rfbt1,Cout1,L2",
     "variants": []
   },
   "sheets": [
     [
       "c58806c5-432f-4c41-8983-8e5fd30a3703",
-      "Microcontroller"
+      "IMU Board"
     ],
     [
-      "0f1a98a6-1765-4842-9004-40d2a659421f",
+      "778675bd-c4f1-467b-a910-9ba721eef853",
       "buck"
     ]
   ],

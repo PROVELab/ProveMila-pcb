@@ -4551,7 +4551,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "34b508cc-eb74-4795-ab7b-2be6158d65cb")
-		(property "Reference" "U4"
+		(property "Reference" "U1"
 			(at 125.73 54.61 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4647,7 +4647,7 @@
 		(instances
 			(project "MCU"
 				(path "/c58806c5-432f-4c41-8983-8e5fd30a3703/17ad73fb-67eb-456b-8672-13a62eb66df9"
-					(reference "U4")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -5646,7 +5646,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bc9480d4-f1b5-4d2c-a1d2-2c4c1ab56587")
-		(property "Reference" "J3"
+		(property "Reference" "J1"
 			(at 26.67 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -5710,7 +5710,7 @@
 		(instances
 			(project "MCU"
 				(path "/c58806c5-432f-4c41-8983-8e5fd30a3703/17ad73fb-67eb-456b-8672-13a62eb66df9"
-					(reference "J3")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -6110,11 +6110,6 @@
 					(unit 1)
 				)
 			)
-		)
-	)
-	(sheet_instances
-		(path "/"
-			(page "1")
 		)
 	)
 )
