@@ -409,164 +409,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector_Generic:Conn_01x02"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at 0 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x02"
-				(at 0 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Conn_01x02_1_1"
-				(rectangle
-					(start -1.27 1.27)
-					(end 1.27 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:C_Small"
 			(pin_numbers
 				(hide yes)
@@ -3389,6 +3231,12 @@
 		(uuid "06dbc114-6ded-4576-8e5a-b489c45245ab")
 	)
 	(junction
+		(at 55.88 170.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0b4b5b3a-7718-4f4f-a374-d0af1a50b51d")
+	)
+	(junction
 		(at 247.65 147.32)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3429,6 +3277,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6a77c1d3-8881-453c-bbcf-d112172240b0")
+	)
+	(junction
+		(at 46.99 177.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6af0ae34-730e-445b-83af-f17b4c459e13")
 	)
 	(junction
 		(at 26.67 128.27)
@@ -3479,6 +3333,12 @@
 		(uuid "a1a93d1b-a6dd-49b1-9cd6-7d81c77b3161")
 	)
 	(junction
+		(at 35.56 177.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a36e557c-c228-4d0f-9907-39819361efa7")
+	)
+	(junction
 		(at 76.2 139.7)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3489,6 +3349,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b36e8a06-1465-43e0-b05d-be7cbfe97a11")
+	)
+	(junction
+		(at 46.99 170.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bdf6b7a9-960c-47ca-83c1-bbe491e86817")
 	)
 	(junction
 		(at 48.26 134.62)
@@ -3758,7 +3624,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 170.18) (xy 74.93 170.18)
+			(xy 35.56 170.18) (xy 46.99 170.18)
 		)
 		(stroke
 			(width 0)
@@ -3785,16 +3651,6 @@
 			(type default)
 		)
 		(uuid "2bdb5de1-a195-407a-88d8-cb2d2e3e8aed")
-	)
-	(wire
-		(pts
-			(xy 46.99 86.36) (xy 50.8 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2c420009-128d-47ad-bac8-bb2635e89a5e")
 	)
 	(wire
 		(pts
@@ -3998,6 +3854,16 @@
 	)
 	(wire
 		(pts
+			(xy 55.88 170.18) (xy 74.93 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64f46b94-7807-4aec-9abf-38fbfdb914d5")
+	)
+	(wire
+		(pts
 			(xy 175.26 104.14) (xy 175.26 105.41)
 		)
 		(stroke
@@ -4188,6 +4054,16 @@
 	)
 	(wire
 		(pts
+			(xy 46.99 177.8) (xy 55.88 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c40def9-a753-4586-8729-5cd164260861")
+	)
+	(wire
+		(pts
 			(xy 97.79 111.76) (xy 100.33 111.76)
 		)
 		(stroke
@@ -4295,6 +4171,16 @@
 			(type default)
 		)
 		(uuid "9d07c330-1eaa-4ab8-9c72-77d173f713cc")
+	)
+	(wire
+		(pts
+			(xy 35.56 177.8) (xy 46.99 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9eb3a5f1-e45e-499f-91d9-4e79f0dff757")
 	)
 	(wire
 		(pts
@@ -4618,6 +4504,16 @@
 	)
 	(wire
 		(pts
+			(xy 46.99 170.18) (xy 55.88 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d086e77f-625e-42ab-8a2e-ffe8011c867d")
+	)
+	(wire
+		(pts
 			(xy 160.02 153.67) (xy 199.39 153.67)
 		)
 		(stroke
@@ -4625,16 +4521,6 @@
 			(type default)
 		)
 		(uuid "d0bde1d0-ab8c-4916-b683-70af5e4a5acb")
-	)
-	(wire
-		(pts
-			(xy 50.8 86.36) (xy 50.8 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d644901f-01c1-4606-81d4-414ccefd28bc")
 	)
 	(wire
 		(pts
@@ -4926,7 +4812,7 @@
 		)
 		(uuid "ea06487c-88c6-4582-bafb-fedbb81ec727")
 	)
-	(global_label "5.3V OUT"
+	(global_label "5.2V_OUT"
 		(shape output)
 		(at 102.87 88.9 0)
 		(fields_autoplaced yes)
@@ -4962,7 +4848,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "04e43b19-569d-4d7a-ab77-6c39984b5eeb")
-		(property "Reference" "R6"
+		(property "Reference" "R1"
 			(at 66.04 111.7599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5026,7 +4912,112 @@
 		(instances
 			(project "Microcontroller"
 				(path "/c58806c5-432f-4c41-8983-8e5fd30a3703"
-					(reference "R6")
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "10TPE47MAZB:10TPE47MAZB")
+		(at 55.88 175.26 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0bdd35ca-6bbf-460d-8d3b-b399caf6a62c")
+		(property "Reference" "C4"
+			(at 52.07 172.7199 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47uF"
+			(at 55.626 172.466 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3528-21_Kemet-B_HandSolder"
+			(at 55.88 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/508/1/T520B476M010ATE035.pdf"
+			(at 55.88 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Kemet T520B476M010ATE035"
+			(at 55.88 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Specs" "Cap: 47 µF VDC: 10 V ESR: 35 mΩ"
+			(at 55.88 175.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Purchase Link" "https://www.mouser.com/en/ProductDetail/KEMET/T520B476M010ATE035?qs=pO9a3qNHhpF5ZUO8%2FwrZRg%3D%3D"
+			(at 55.88 175.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d895be80-584f-41ae-b207-beb787c2ab61")
+		)
+		(pin "2"
+			(uuid "c972aaa2-ab4d-49f7-b8e4-a41f7baf1f9b")
+		)
+		(instances
+			(project "Microcontroller"
+				(path "/c58806c5-432f-4c41-8983-8e5fd30a3703"
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -5035,6 +5026,7 @@
 	(symbol
 		(lib_id "power:GND")
 		(at 35.56 177.8 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5042,9 +5034,8 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "0ccd9361-15a0-4004-bbb3-8a2f6112aeed")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR07"
 			(at 35.56 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -5056,7 +5047,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 38.1 179.0699 0)
+			(at 33.02 179.0699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5105,85 +5096,7 @@
 		(instances
 			(project "Microcontroller"
 				(path "/c58806c5-432f-4c41-8983-8e5fd30a3703"
-					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 50.8 91.44 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1707d61c-ffcd-419b-8533-563bb57e7a10")
-		(property "Reference" "#PWR015"
-			(at 50.8 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 50.8 96.52 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 50.8 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 50.8 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 50.8 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "198564f6-d7c2-4273-a9a0-c028d55ce286")
-		)
-		(instances
-			(project "Microcontroller"
-				(path "/c58806c5-432f-4c41-8983-8e5fd30a3703"
-					(reference "#PWR015")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -5201,7 +5114,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "19e32bb0-30d1-4d5f-b35f-e074c3fb3855")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR010"
 			(at 54.61 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -5262,7 +5175,7 @@
 		(instances
 			(project "Microcontroller"
 				(path "/c58806c5-432f-4c41-8983-8e5fd30a3703"
-					(reference "#PWR03")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -5270,7 +5183,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 196.85 91.44 0)
+		(at 201.93 88.9 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5281,7 +5194,7 @@
 		(fields_autoplaced yes)
 		(uuid "1e6d9069-93d3-4281-8881-b9e6df03ee8d")
 		(property "Reference" "M3"
-			(at 199.39 90.1699 0)
+			(at 204.47 87.6299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5292,7 +5205,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 199.39 92.7099 0)
+			(at 204.47 90.1699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5303,7 +5216,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 196.85 91.44 0)
+			(at 201.93 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5314,7 +5227,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 196.85 91.44 0)
+			(at 201.93 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5325,7 +5238,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 196.85 91.44 0)
+			(at 201.93 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5355,7 +5268,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "231b6744-4230-4f67-a699-25b5331616fc")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR09"
 			(at 53.34 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -5417,90 +5330,7 @@
 		(instances
 			(project "Microcontroller"
 				(path "/c58806c5-432f-4c41-8983-8e5fd30a3703"
-					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 41.91 86.36 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2f076a12-e3ea-42a2-a624-ac471a147ede")
-		(property "Reference" "J1"
-			(at 41.91 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x02"
-			(at 41.91 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "PROVE-footprints:TE_1877285-2"
-			(at 41.91 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 41.91 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 41.91 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1ab67c7c-0010-4110-824b-c2baad3b9733")
-		)
-		(pin "2"
-			(uuid "7b53b25b-76b8-4599-8649-4eb8f597bbb7")
-		)
-		(instances
-			(project "Microcontroller"
-				(path "/c58806c5-432f-4c41-8983-8e5fd30a3703"
-					(reference "J1")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -5809,7 +5639,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "474d4f41-78c7-49de-871e-17314edd3b23")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR03"
 			(at 20.32 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -5871,7 +5701,7 @@
 		(instances
 			(project "Microcontroller"
 				(path "/c58806c5-432f-4c41-8983-8e5fd30a3703"
-					(reference "#PWR09")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -6363,7 +6193,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7a40c483-5b6f-495e-8c34-699ae23c6fbc")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR05"
 			(at 20.32 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -6425,7 +6255,7 @@
 		(instances
 			(project "Microcontroller"
 				(path "/c58806c5-432f-4c41-8983-8e5fd30a3703"
-					(reference "#PWR06")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -6442,7 +6272,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7c6cb9c4-b031-427b-acf4-2fdb4b68dd2c")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR02"
 			(at 20.32 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -6504,7 +6334,111 @@
 		(instances
 			(project "Microcontroller"
 				(path "/c58806c5-432f-4c41-8983-8e5fd30a3703"
-					(reference "#PWR010")
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "10TPE47MAZB:10TPE47MAZB")
+		(at 46.99 175.26 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "83d29b04-1ac9-4bfc-88ee-576d0782f0b9")
+		(property "Reference" "C3"
+			(at 50.8 172.7199 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47uF"
+			(at 47.244 172.466 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3528-21_Kemet-B_HandSolder"
+			(at 46.99 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/508/1/T520B476M010ATE035.pdf"
+			(at 46.99 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Kemet T520B476M010ATE035"
+			(at 46.99 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Specs" "Cap: 47 µF VDC: 10 V ESR: 35 mΩ"
+			(at 46.99 175.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Purchase Link" "https://www.mouser.com/en/ProductDetail/KEMET/T520B476M010ATE035?qs=pO9a3qNHhpF5ZUO8%2FwrZRg%3D%3D"
+			(at 46.99 175.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6d5e55dc-b1d2-46d8-b23f-3e743f0487ce")
+		)
+		(pin "2"
+			(uuid "48b9f744-9565-4b38-a2fb-efbb74ee7755")
+		)
+		(instances
+			(project "Microcontroller"
+				(path "/c58806c5-432f-4c41-8983-8e5fd30a3703"
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -6521,7 +6455,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "853a7058-3fa9-408f-a116-bb2cca974744")
-		(property "Reference" "Cout2"
+		(property "Reference" "C2"
 			(at 39.37 172.7199 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6608,7 +6542,7 @@
 		(instances
 			(project "Microcontroller"
 				(path "/c58806c5-432f-4c41-8983-8e5fd30a3703"
-					(reference "Cout2")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -6704,7 +6638,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9f8c57b0-e6a2-40f7-bc62-95d964d8db85")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR04"
 			(at 20.32 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -6766,7 +6700,7 @@
 		(instances
 			(project "Microcontroller"
 				(path "/c58806c5-432f-4c41-8983-8e5fd30a3703"
-					(reference "#PWR07")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -6784,7 +6718,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a129fa04-eddb-4e18-9d9c-daa74ea2c3e6")
-		(property "Reference" "M3_"
+		(property "Reference" "M3_1"
 			(at 191.77 90.1699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6842,7 +6776,7 @@
 		(instances
 			(project "Microcontroller"
 				(path "/c58806c5-432f-4c41-8983-8e5fd30a3703"
-					(reference "M3_")
+					(reference "M3_1")
 					(unit 1)
 				)
 			)
@@ -6860,7 +6794,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a157308c-a0d9-489b-83b1-fbdc8ec1fead")
-		(property "Reference" "#PWR0102"
+		(property "Reference" "#PWR012"
 			(at 212.09 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -6927,7 +6861,7 @@
 			)
 			(project "Microcontroller"
 				(path "/c58806c5-432f-4c41-8983-8e5fd30a3703"
-					(reference "#PWR0102")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -6945,7 +6879,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a2e28e52-f7df-499d-9c23-2ab707464fb1")
-		(property "Reference" "#PWR0103"
+		(property "Reference" "#PWR011"
 			(at 193.04 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -7006,7 +6940,7 @@
 		(instances
 			(project "Microcontroller"
 				(path "/c58806c5-432f-4c41-8983-8e5fd30a3703"
-					(reference "#PWR0103")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -7482,7 +7416,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d05117e0-0cb8-4153-afe2-2bcec5316f9c")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR06"
 			(at 20.32 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -7544,7 +7478,7 @@
 		(instances
 			(project "Microcontroller"
 				(path "/c58806c5-432f-4c41-8983-8e5fd30a3703"
-					(reference "#PWR05")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -7728,7 +7662,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f80c33e8-08ae-4901-aafc-7fd366c85cf5")
-		(property "Reference" "U6"
+		(property "Reference" "U3"
 			(at 222.25 121.92 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7917,7 +7851,7 @@
 			)
 			(project "Microcontroller"
 				(path "/c58806c5-432f-4c41-8983-8e5fd30a3703"
-					(reference "U6")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -7939,7 +7873,7 @@
 			(color 0 0 0 0)
 		)
 		(uuid "0f1a98a6-1765-4842-9004-40d2a659421f")
-		(property "Sheetname" "25_To_5p3V_step_down"
+		(property "Sheetname" "25_to_5p2V_step_down"
 			(at 60.96 81.8384 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7950,7 +7884,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "5V_Buck.kicad_sch"
+		(property "Sheetfile" "../buck_converter.kicad_blocks/25_to_5p2V_step_down.kicad_block/25_to_5p2V_step_down.kicad_sch"
 			(at 60.96 95.8346 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7961,7 +7895,7 @@
 				(justify left top)
 			)
 		)
-		(pin "5.3V_Out" output
+		(pin "5.2V_Out" output
 			(at 91.44 88.9 0)
 			(uuid "1657b4c7-5e6f-4fb6-9e4c-bd8cc60c08d1")
 			(effects

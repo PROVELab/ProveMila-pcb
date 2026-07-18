@@ -63,8 +63,8 @@
           "min_clearance": 0.5,
           "min_island_area": 10.0,
           "min_thickness": 0.25,
-          "pad_connection": 1,
-          "remove_islands": 0,
+          "pad_connection": 2,
+          "remove_islands": 1,
           "thermal_relief_gap": 0.5,
           "thermal_relief_spoke_width": 0.5
         }
@@ -458,11 +458,14 @@
       "duplicate_sheet_names": "error",
       "endpoint_off_grid": "warning",
       "extra_units": "error",
+      "field_name_whitespace": "warning",
       "footprint_filter": "ignore",
       "footprint_link_issues": "warning",
       "four_way_junction": "ignore",
       "global_label_dangling": "warning",
+      "ground_pin_not_ground": "warning",
       "hier_label_mismatch": "error",
+      "isolated_pin_label": "warning",
       "label_dangling": "error",
       "label_multiple_wires": "warning",
       "lib_symbol_issues": "warning",
@@ -485,6 +488,7 @@
       "similar_power": "warning",
       "simulation_model_issue": "ignore",
       "single_global_label": "ignore",
+      "stacked_pin_name": "warning",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
       "undefined_netclass": "error",
@@ -546,6 +550,10 @@
   },
   "schematic": {
     "annotate_start_num": 0,
+    "annotation": {
+      "method": 0,
+      "sort_order": 0
+    },
     "bom_export_filename": "${PROJECTNAME}.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
@@ -731,12 +739,6 @@
         },
         {
           "group_by": false,
-          "label": "MANUFACTURER",
-          "name": "MANUFACTURER",
-          "show": false
-        },
-        {
-          "group_by": false,
           "label": "MAXIMUM_PACKAGE_HEIGHT",
           "name": "MAXIMUM_PACKAGE_HEIGHT",
           "show": false
@@ -854,6 +856,30 @@
           "label": "#",
           "name": "${ITEM_NUMBER}",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "purchaseLink",
+          "name": "purchaseLink",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Purchase",
+          "name": "Purchase",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Purchase Link",
+          "name": "Purchase Link",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Specs",
+          "name": "Specs",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -871,6 +897,7 @@
       "default_line_thickness": 6.0,
       "default_text_size": 50.0,
       "field_names": [],
+      "hop_over_size_choice": 0,
       "intersheets_ref_own_page": false,
       "intersheets_ref_prefix": "",
       "intersheets_ref_short": false,
@@ -902,6 +929,7 @@
     },
     "page_layout_descr_file": "",
     "plot_directory": "",
+    "reuse_designators": true,
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
@@ -915,14 +943,20 @@
       {
         "filename": "MCU.kicad_sch",
         "name": "MCU",
-        "uuid": "00000000-0000-0000-0000-000000000000"
+        "uuid": "c58806c5-432f-4c41-8983-8e5fd30a3703"
       }
-    ]
+    ],
+    "used_designators": "Cout1,L1,Rfbt1-3,R_TERM1,Rfbb1,Rt1,R1-10,M1,M3,C1-7,Cin1,CR1,#PWR1-15,#PWR102-103,J1-7,RCmp1,D1,U1-3,U6,Cboot1,Ccmp1-2,M3_1-2",
+    "variants": []
   },
   "sheets": [
     [
       "c58806c5-432f-4c41-8983-8e5fd30a3703",
-      "Root"
+      "MCU"
+    ],
+    [
+      "17ad73fb-67eb-456b-8672-13a62eb66df9",
+      "25_to_5p2V_step_down"
     ]
   ],
   "text_variables": {},
