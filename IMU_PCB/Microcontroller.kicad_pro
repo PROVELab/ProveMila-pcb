@@ -674,7 +674,7 @@
         "uuid": "c58806c5-432f-4c41-8983-8e5fd30a3703"
       }
     ],
-    "used_designators": "Rfbb1,Rt1,H1-3,#PWR4,Cboot1,Ccmp1-2,Cin1-2,J5,RCmp1,D1,U1,Rfbt1,Cout1,L2",
+    "used_designators": "Rfbb1,Rt1,H1-3,#PWR4,Cboot1,Ccmp1-2,Cin1-2,J5,RCmp1,U1,D1,Cout1,Rfbt1,L2",
     "variants": []
   },
   "sheets": [

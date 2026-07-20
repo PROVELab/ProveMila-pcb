@@ -4413,8 +4413,8 @@
 			(uuid "0a011da4-c062-4075-a2f9-ff000738fe86")
 		)
 		(instances
-			(project "MCU"
-				(path "/c58806c5-432f-4c41-8983-8e5fd30a3703/17ad73fb-67eb-456b-8672-13a62eb66df9"
+			(project "Microcontroller"
+				(path "/c58806c5-432f-4c41-8983-8e5fd30a3703/778675bd-c4f1-467b-a910-9ba721eef853"
 					(reference "Cin1")
 					(unit 1)
 				)
@@ -4525,8 +4525,8 @@
 			(uuid "97a2e1aa-4e3b-41f8-ab48-2538bf3d90b6")
 		)
 		(instances
-			(project "MCU"
-				(path "/c58806c5-432f-4c41-8983-8e5fd30a3703/17ad73fb-67eb-456b-8672-13a62eb66df9"
+			(project "Microcontroller"
+				(path "/c58806c5-432f-4c41-8983-8e5fd30a3703/778675bd-c4f1-467b-a910-9ba721eef853"
 					(reference "Cboot1")
 					(unit 1)
 				)
@@ -4645,8 +4645,8 @@
 			(uuid "c17e7457-9b9e-4e8e-a25a-bcc1d40e1855")
 		)
 		(instances
-			(project "MCU"
-				(path "/c58806c5-432f-4c41-8983-8e5fd30a3703/17ad73fb-67eb-456b-8672-13a62eb66df9"
+			(project "Microcontroller"
+				(path "/c58806c5-432f-4c41-8983-8e5fd30a3703/778675bd-c4f1-467b-a910-9ba721eef853"
 					(reference "U1")
 					(unit 1)
 				)
@@ -4756,8 +4756,8 @@
 			(uuid "7e9e7399-1160-4440-ab6c-935a57a035dc")
 		)
 		(instances
-			(project "MCU"
-				(path "/c58806c5-432f-4c41-8983-8e5fd30a3703/17ad73fb-67eb-456b-8672-13a62eb66df9"
+			(project "Microcontroller"
+				(path "/c58806c5-432f-4c41-8983-8e5fd30a3703/778675bd-c4f1-467b-a910-9ba721eef853"
 					(reference "RCmp1")
 					(unit 1)
 				)
@@ -4867,8 +4867,8 @@
 			(uuid "8bc1ccac-6d3f-439c-9c2c-6987c6d8578f")
 		)
 		(instances
-			(project "MCU"
-				(path "/c58806c5-432f-4c41-8983-8e5fd30a3703/17ad73fb-67eb-456b-8672-13a62eb66df9"
+			(project "Microcontroller"
+				(path "/c58806c5-432f-4c41-8983-8e5fd30a3703/778675bd-c4f1-467b-a910-9ba721eef853"
 					(reference "Ccmp2")
 					(unit 1)
 				)
@@ -4979,8 +4979,8 @@
 			(uuid "b3120457-b612-4337-92d1-0c04424650d4")
 		)
 		(instances
-			(project "MCU"
-				(path "/c58806c5-432f-4c41-8983-8e5fd30a3703/17ad73fb-67eb-456b-8672-13a62eb66df9"
+			(project "Microcontroller"
+				(path "/c58806c5-432f-4c41-8983-8e5fd30a3703/778675bd-c4f1-467b-a910-9ba721eef853"
 					(reference "Cin2")
 					(unit 1)
 				)
@@ -5091,8 +5091,8 @@
 			(uuid "2a6c2978-b7cd-4b07-aa69-86f9634ca2ba")
 		)
 		(instances
-			(project "MCU"
-				(path "/c58806c5-432f-4c41-8983-8e5fd30a3703/17ad73fb-67eb-456b-8672-13a62eb66df9"
+			(project "Microcontroller"
+				(path "/c58806c5-432f-4c41-8983-8e5fd30a3703/778675bd-c4f1-467b-a910-9ba721eef853"
 					(reference "Rfbb1")
 					(unit 1)
 				)
@@ -5202,8 +5202,8 @@
 			(uuid "7675ee5a-3f7e-4169-b8de-aecc3f97d3ba")
 		)
 		(instances
-			(project "MCU"
-				(path "/c58806c5-432f-4c41-8983-8e5fd30a3703/17ad73fb-67eb-456b-8672-13a62eb66df9"
+			(project "Microcontroller"
+				(path "/c58806c5-432f-4c41-8983-8e5fd30a3703/778675bd-c4f1-467b-a910-9ba721eef853"
 					(reference "Ccmp1")
 					(unit 1)
 				)
@@ -5313,8 +5313,8 @@
 			(uuid "6844bf46-76c9-41a1-a565-5f1a682722eb")
 		)
 		(instances
-			(project "MCU"
-				(path "/c58806c5-432f-4c41-8983-8e5fd30a3703/17ad73fb-67eb-456b-8672-13a62eb66df9"
+			(project "Microcontroller"
+				(path "/c58806c5-432f-4c41-8983-8e5fd30a3703/778675bd-c4f1-467b-a910-9ba721eef853"
 					(reference "Rt1")
 					(unit 1)
 				)
@@ -5424,8 +5424,8 @@
 			(uuid "3e2a313a-ec77-4789-80cf-db4435afafd7")
 		)
 		(instances
-			(project "MCU"
-				(path "/c58806c5-432f-4c41-8983-8e5fd30a3703/17ad73fb-67eb-456b-8672-13a62eb66df9"
+			(project "Microcontroller"
+				(path "/c58806c5-432f-4c41-8983-8e5fd30a3703/778675bd-c4f1-467b-a910-9ba721eef853"
 					(reference "Rfbt1")
 					(unit 1)
 				)
@@ -5508,8 +5508,8 @@
 			(uuid "b4917791-da33-4ded-bbb2-c6d135380c22")
 		)
 		(instances
-			(project "MCU"
-				(path "/c58806c5-432f-4c41-8983-8e5fd30a3703/17ad73fb-67eb-456b-8672-13a62eb66df9"
+			(project "Microcontroller"
+				(path "/c58806c5-432f-4c41-8983-8e5fd30a3703/778675bd-c4f1-467b-a910-9ba721eef853"
 					(reference "#PWR019")
 					(unit 1)
 				)
@@ -5619,8 +5619,8 @@
 			(uuid "d0e2f839-4d25-4697-837f-4d134f8c9a5f")
 		)
 		(instances
-			(project "MCU"
-				(path "/c58806c5-432f-4c41-8983-8e5fd30a3703/17ad73fb-67eb-456b-8672-13a62eb66df9"
+			(project "Microcontroller"
+				(path "/c58806c5-432f-4c41-8983-8e5fd30a3703/778675bd-c4f1-467b-a910-9ba721eef853"
 					(reference "Cout1")
 					(unit 1)
 				)
@@ -5708,8 +5708,8 @@
 			(uuid "57ada38b-f8b2-4a0d-9981-b2c680a7ccaf")
 		)
 		(instances
-			(project "MCU"
-				(path "/c58806c5-432f-4c41-8983-8e5fd30a3703/17ad73fb-67eb-456b-8672-13a62eb66df9"
+			(project "Microcontroller"
+				(path "/c58806c5-432f-4c41-8983-8e5fd30a3703/778675bd-c4f1-467b-a910-9ba721eef853"
 					(reference "J1")
 					(unit 1)
 				)
@@ -5818,8 +5818,8 @@
 			(uuid "e0c9ae90-160c-4c51-860b-05ad2efdc3b8")
 		)
 		(instances
-			(project "MCU"
-				(path "/c58806c5-432f-4c41-8983-8e5fd30a3703/17ad73fb-67eb-456b-8672-13a62eb66df9"
+			(project "Microcontroller"
+				(path "/c58806c5-432f-4c41-8983-8e5fd30a3703/778675bd-c4f1-467b-a910-9ba721eef853"
 					(reference "L1")
 					(unit 1)
 				)
@@ -5902,8 +5902,8 @@
 			(uuid "9c3394d4-2ab0-4766-9472-1e9baa6d3ee2")
 		)
 		(instances
-			(project "MCU"
-				(path "/c58806c5-432f-4c41-8983-8e5fd30a3703/17ad73fb-67eb-456b-8672-13a62eb66df9"
+			(project "Microcontroller"
+				(path "/c58806c5-432f-4c41-8983-8e5fd30a3703/778675bd-c4f1-467b-a910-9ba721eef853"
 					(reference "#PWR015")
 					(unit 1)
 				)
@@ -5986,8 +5986,8 @@
 			(uuid "ca99f923-4bf6-4ed2-ba29-a44a2ff57e4c")
 		)
 		(instances
-			(project "MCU"
-				(path "/c58806c5-432f-4c41-8983-8e5fd30a3703/17ad73fb-67eb-456b-8672-13a62eb66df9"
+			(project "Microcontroller"
+				(path "/c58806c5-432f-4c41-8983-8e5fd30a3703/778675bd-c4f1-467b-a910-9ba721eef853"
 					(reference "#PWR014")
 					(unit 1)
 				)
@@ -6098,8 +6098,8 @@
 			(uuid "9c017b63-9f3f-453e-a567-2bcecc5f3bde")
 		)
 		(instances
-			(project "MCU"
-				(path "/c58806c5-432f-4c41-8983-8e5fd30a3703/17ad73fb-67eb-456b-8672-13a62eb66df9"
+			(project "Microcontroller"
+				(path "/c58806c5-432f-4c41-8983-8e5fd30a3703/778675bd-c4f1-467b-a910-9ba721eef853"
 					(reference "D1")
 					(unit 1)
 				)
