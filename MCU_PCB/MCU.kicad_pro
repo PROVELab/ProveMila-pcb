@@ -539,7 +539,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "final printing files/",
+      "plot": "../../gerbers/MCU/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
@@ -849,7 +849,7 @@
           "group_by": false,
           "label": "Description",
           "name": "Description",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -873,7 +873,7 @@
           "group_by": false,
           "label": "Purchase Link",
           "name": "Purchase Link",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -883,7 +883,7 @@
         }
       ],
       "filter_string": "",
-      "group_symbols": true,
+      "group_symbols": false,
       "include_excluded_from_bom": true,
       "name": "",
       "sort_asc": true,
@@ -946,7 +946,7 @@
         "uuid": "c58806c5-432f-4c41-8983-8e5fd30a3703"
       }
     ],
-    "used_designators": "R1-10,M1,M3,R_TERM1,U1-3,U6,D1,RCmp1,Rt1,Rfbb1,Cout1,L1,Rfbt1-3,J1-7,#PWR1-15,#PWR102-103,CR1,Cin1,C1-7,M3_1-2,Ccmp1-2,Cboot1",
+    "used_designators": "R1-16,R18,M1-3,IC1,M3_1-2,Cboot1,Ccmp1-2,R_TERM1,Cin1,Rt1,Rfbb1,C1-9,J1-12,CR1,#PWR1-21,#PWR24,#PWR102-103,RCmp1,D1,U1-3,U6,U17-21,Rfbt1-3,Cout1,L1",
     "variants": []
   },
   "sheets": [
@@ -956,7 +956,11 @@
     ],
     [
       "17ad73fb-67eb-456b-8672-13a62eb66df9",
-      "25_to_5p2V_step_down"
+      "buck_to_5V"
+    ],
+    [
+      "62781f52-d569-412a-ab45-1b18736124d9",
+      "Pedal_Sense"
     ]
   ],
   "text_variables": {},
