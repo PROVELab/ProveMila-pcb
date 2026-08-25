@@ -674,7 +674,7 @@
         "uuid": "c58806c5-432f-4c41-8983-8e5fd30a3703"
       }
     ],
-    "used_designators": "H1-4,#PWR1-2,#PWR4,#PWR7-9,#PWR24,Cin1-2,D1,U1,U15,C4,C7,J2,J5,J23-25,R_TERM1,Cout1,L2,Rfbt1,RCmp1,Rt1,Rfbb1,R1,R4,R19,Ccmp1-2,Cboot1,Thermal_R1,IC1",
+    "used_designators": "Rt1,Cout1,L2,Rfbt1,R_TERM1,J2,J5,J23-25,Cboot1,Ccmp1-2,IC1,Thermal_R1,R1,R4,R19,Rfbb1,H1-4,#PWR1-2,#PWR4,#PWR7-9,#PWR24,Cin1-2,C4,C7,D1,U1,U15,RCmp1",
     "variants": []
   },
   "sheets": [
