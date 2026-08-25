@@ -228,343 +228,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:Conn_01x02_Pin"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at 0 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x02_Pin"
-				(at 0 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x02, script generated"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Conn_01x02_Pin_1_1"
-				(rectangle
-					(start 0.8636 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 0.8636 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 0.8636 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Device:C_Small"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "C"
-				(at 0.254 1.778 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "C_Small"
-				(at 0.254 -2.032 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Unpolarized capacitor, small symbol"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "capacitor cap"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "C_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "C_Small_0_1"
-				(polyline
-					(pts
-						(xy -1.524 0.508) (xy 1.524 0.508)
-					)
-					(stroke
-						(width 0.3048)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 -0.508) (xy 1.524 -0.508)
-					)
-					(stroke
-						(width 0.3302)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_Small_1_1"
-				(pin passive line
-					(at 0 2.54 270)
-					(length 2.032)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 2.032)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -2220,51 +1883,36 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "PROVE:TJA1050T/CM,118"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim yes)
+		(symbol "PROVE_Symbols:39-28-1023"
+			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at -12.7 11.049 0)
+			(property "Reference" "J"
+				(at 16.51 7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
+					(justify left top)
 				)
 			)
-			(property "Value" "TJA1050T/CM,118"
-				(at -12.7 -15.24 0)
+			(property "Value" "39-28-1023"
+				(at 16.51 5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
+					(justify left top)
 				)
 			)
-			(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Datasheet" "http://138.2.231.237:8080/en/part/24/info"
-				(at 0 0 0)
+			(property "Footprint" "39-28-1023"
+				(at 16.51 -94.92 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -2272,10 +1920,11 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 				)
 			)
-			(property "Description" "IC TRANSCEIVER HALF 1/1 8SO"
-				(at 0 0 0)
+			(property "Datasheet" "https://www.molex.com/pdm_docs/sd/039281023_sd.pdf"
+				(at 16.51 -194.92 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -2283,57 +1932,10 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 				)
 			)
-			(property "PARTREV" "4"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "STANDARD" "IPC 7351B"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "MAXIMUM_PACKAGE_HEIGHT" "1.75 mm"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "MANUFACTURER" "NXP USA"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Category" "IC/CAN"
+			(property "Description" "Mini-Fit Jr. Vertical Header, 4.20mm Pitch, Dual Row, 2 Circuits, without Snap-in Plastic Peg PCB Lock, Tin, Natural"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2344,8 +1946,8 @@
 					)
 				)
 			)
-			(property "MPN" "TJA1050T/CM,118"
-				(at 0 0 0)
+			(property "Height" "12.8"
+				(at 16.51 -394.92 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -2353,10 +1955,11 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 				)
 			)
-			(property "Manufacturer" "NXP"
-				(at 0 0 0)
+			(property "Mouser Part Number" "538-39-28-1023"
+				(at 16.51 -494.92 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -2364,10 +1967,11 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 				)
 			)
-			(property "Manufacturing Status" ""
-				(at 0 0 0)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Molex/39-28-1023?qs=LQQHZ4xw2XBykFU0jRHvlQ%3D%3D"
+				(at 16.51 -594.92 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -2375,10 +1979,11 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 				)
 			)
-			(property "Part-DB Footprint" "8-SOIC"
-				(at 0 0 0)
+			(property "Manufacturer_Name" "Molex"
+				(at 16.51 -694.92 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -2386,10 +1991,11 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 				)
 			)
-			(property "Part-DB ID" "24"
-				(at 0 0 0)
+			(property "Manufacturer_Part_Number" "39-28-1023"
+				(at 16.51 -794.92 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -2397,12 +2003,13 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 				)
 			)
-			(symbol "TJA1050T/CM,118_0_0"
+			(symbol "39-28-1023_1_1"
 				(rectangle
-					(start -12.7 -12.7)
-					(end 12.7 10.16)
+					(start 5.08 2.54)
+					(end 15.24 -5.08)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -2411,146 +2018,320 @@
 						(type background)
 					)
 				)
-				(pin input line
-					(at 17.78 -2.54 180)
+				(pin passive line
+					(at 0 0 0)
 					(length 5.08)
-					(name "TXD"
+					(name "1"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "1"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
-				(pin power_in line
-					(at 17.78 -10.16 180)
+				(pin passive line
+					(at 0 -2.54 0)
 					(length 5.08)
-					(name "GND"
+					(name "2"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "2"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
-				(pin power_in line
-					(at 17.78 7.62 180)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "PROVE_Symbols:TJA1044BT_0Z"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "IC"
+				(at 24.13 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "TJA1044BT_0Z"
+				(at 24.13 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "SOIC127P600X175-8N"
+				(at 24.13 -94.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Datasheet" "https://www.nxp.com/docs/en/data-sheet/TJA1044.pdf"
+				(at 24.13 -194.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Description" "CAN Interface IC High-Speed CAN Transceiver with Standby Mode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Height" "1.75"
+				(at 24.13 -394.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Part Number" "771-TJA1044BT/0Z"
+				(at 24.13 -494.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/NXP-Semiconductors/TJA1044BT-0Z?qs=Jm2GQyTW%2FbgYs3n%2F8ftS8A%3D%3D"
+				(at 24.13 -594.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Name" "NXP"
+				(at 24.13 -694.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Part_Number" "TJA1044BT/0Z"
+				(at 24.13 -794.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(symbol "TJA1044BT_0Z_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 22.86 -10.16)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "TXD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
 					(length 5.08)
 					(name "VCC"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "3"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
-				(pin output line
-					(at 17.78 -5.08 180)
+				(pin passive line
+					(at 0 -7.62 0)
 					(length 5.08)
 					(name "RXD"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "4"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
-				(pin output line
-					(at 17.78 2.54 180)
+				(pin passive line
+					(at 27.94 -7.62 180)
 					(length 5.08)
-					(name "VREF"
+					(name "VIO"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "5"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
-				(pin bidirectional line
-					(at -17.78 -5.08 0)
+				(pin passive line
+					(at 27.94 -5.08 180)
 					(length 5.08)
 					(name "CANL"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "6"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
-				(pin bidirectional line
-					(at -17.78 -2.54 0)
+				(pin passive line
+					(at 27.94 -2.54 180)
 					(length 5.08)
 					(name "CANH"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "7"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
-				(pin input line
-					(at -17.78 2.54 0)
+				(pin passive line
+					(at 27.94 0 180)
 					(length 5.08)
-					(name "S"
+					(name "STB"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "8"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
@@ -3225,28 +3006,40 @@
 		)
 	)
 	(junction
-		(at 204.47 113.03)
+		(at 229.87 146.05)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "06dbc114-6ded-4576-8e5a-b489c45245ab")
+		(uuid "0cec3b2b-42d0-41a3-a22c-9715eab486d4")
 	)
 	(junction
-		(at 55.88 170.18)
+		(at 55.88 177.8)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "0b4b5b3a-7718-4f4f-a374-d0af1a50b51d")
-	)
-	(junction
-		(at 247.65 147.32)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "11575c41-21bd-4d1b-8690-dcf7370ac98b")
+		(uuid "14abb82a-24a2-4b3c-ad22-9881cd2e0f0f")
 	)
 	(junction
 		(at 175.26 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "20043c9f-4629-4dba-80a4-70ade3435c7d")
+	)
+	(junction
+		(at 74.93 170.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "24a32c56-f6c8-4656-9b24-d6b7df858c6b")
+	)
+	(junction
+		(at 191.77 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2a572f94-0cce-43f4-960d-cd822ec1a577")
+	)
+	(junction
+		(at 67.31 170.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2bce1ba0-996b-4731-b8b3-adf68bea9a9f")
 	)
 	(junction
 		(at 48.26 127)
@@ -3273,16 +3066,16 @@
 		(uuid "60f159f4-2991-4300-9be8-03dbc86b561d")
 	)
 	(junction
+		(at 45.72 177.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "688b3674-6bad-453e-9bc7-b3c7af12a6ac")
+	)
+	(junction
 		(at 64.77 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6a77c1d3-8881-453c-bbcf-d112172240b0")
-	)
-	(junction
-		(at 46.99 177.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6af0ae34-730e-445b-83af-f17b4c459e13")
 	)
 	(junction
 		(at 26.67 128.27)
@@ -3291,22 +3084,28 @@
 		(uuid "6ecffa9d-763b-4d15-9dc0-9fa2dd58c6fe")
 	)
 	(junction
-		(at 193.04 147.32)
+		(at 55.88 170.18)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "7c8d0d9f-3185-4065-b084-4ff923bbc75d")
+		(uuid "728d87fd-1a7e-48e0-9098-943f5ed76bb1")
+	)
+	(junction
+		(at 35.56 170.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7464b6cd-9c7b-4197-836b-6c95047f00cd")
+	)
+	(junction
+		(at 87.63 147.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7aa789b1-04f6-42d3-b25f-82d73595c9d7")
 	)
 	(junction
 		(at 48.26 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "85dd5339-80ed-4bcf-b7d9-46465162234d")
-	)
-	(junction
-		(at 247.65 139.7)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "89b14029-0555-4e82-8d06-f4502e564330")
 	)
 	(junction
 		(at 48.26 137.16)
@@ -3333,12 +3132,6 @@
 		(uuid "a1a93d1b-a6dd-49b1-9cd6-7d81c77b3161")
 	)
 	(junction
-		(at 35.56 177.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a36e557c-c228-4d0f-9907-39819361efa7")
-	)
-	(junction
 		(at 76.2 139.7)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3351,10 +3144,10 @@
 		(uuid "b36e8a06-1465-43e0-b05d-be7cbfe97a11")
 	)
 	(junction
-		(at 46.99 170.18)
+		(at 35.56 177.8)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "bdf6b7a9-960c-47ca-83c1-bbe491e86817")
+		(uuid "cb2680a7-3e18-4a98-a2a7-533ceaa2deb4")
 	)
 	(junction
 		(at 48.26 134.62)
@@ -3369,10 +3162,10 @@
 		(uuid "d0bca8a3-a39a-4d5c-abb2-1508408035f0")
 	)
 	(junction
-		(at 193.04 124.46)
+		(at 45.72 170.18)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "dc2fd1ed-c713-4227-82a5-3b6f055c9521")
+		(uuid "d81a56e8-7a11-495a-8c02-a396a27c2720")
 	)
 	(junction
 		(at 74.93 156.21)
@@ -3381,26 +3174,28 @@
 		(uuid "e273d7a2-50ba-4cf5-a824-993f7fdbac96")
 	)
 	(junction
-		(at 35.56 170.18)
+		(at 229.87 153.67)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e510c142-5272-4968-ad88-90f09f2d0e18")
+		(uuid "e34aafc6-a9ec-40f3-83d0-cab5cb9f2ede")
+	)
+	(junction
+		(at 76.2 147.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e4c03882-a7eb-4fcc-899c-9dcf3e804e37")
+	)
+	(junction
+		(at 67.31 177.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e87d77c5-cb96-465c-a579-2fa1d4591560")
 	)
 	(junction
 		(at 26.67 143.51)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eff14647-f4bd-4398-b145-b49ee61acf41")
-	)
-	(wire
-		(pts
-			(xy 247.65 147.32) (xy 254 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0063e797-9206-4c39-9bf8-d730e4b070c1")
 	)
 	(wire
 		(pts
@@ -3424,7 +3219,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 134.62) (xy 157.48 134.62)
+			(xy 153.67 134.62) (xy 140.97 134.62)
 		)
 		(stroke
 			(width 0)
@@ -3434,13 +3229,13 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 147.32) (xy 247.65 147.32)
+			(xy 185.42 142.24) (xy 185.42 156.21)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "04f3b002-9be8-4a06-9c92-661e3c907449")
+		(uuid "0a58ff53-88ba-48bc-8adc-9ac066fe7abe")
 	)
 	(wire
 		(pts
@@ -3484,6 +3279,16 @@
 	)
 	(wire
 		(pts
+			(xy 195.58 146.05) (xy 198.12 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12ac6e73-3b86-4b46-8c98-5a8e3aefd8b0")
+	)
+	(wire
+		(pts
 			(xy 76.2 147.32) (xy 87.63 147.32)
 		)
 		(stroke
@@ -3491,16 +3296,6 @@
 			(type default)
 		)
 		(uuid "13caedec-ef42-475d-ba45-31ca12707218")
-	)
-	(wire
-		(pts
-			(xy 193.04 147.32) (xy 204.47 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "19b8d9fd-b16e-440a-8fb3-0f4b9b29090f")
 	)
 	(wire
 		(pts
@@ -3544,26 +3339,6 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 142.24) (xy 241.3 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "21b5f43e-c7f7-4ab4-a86f-ab7708876ea9")
-	)
-	(wire
-		(pts
-			(xy 193.04 124.46) (xy 243.84 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "21c40f0a-87ab-4530-937f-a8610f15fc9e")
-	)
-	(wire
-		(pts
 			(xy 140.97 109.22) (xy 144.78 109.22)
 		)
 		(stroke
@@ -3584,16 +3359,6 @@
 	)
 	(wire
 		(pts
-			(xy 254 142.24) (xy 254 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "235920d9-6dfd-4c18-a417-ac78dfe8d55e")
-	)
-	(wire
-		(pts
 			(xy 25.4 138.43) (xy 31.75 138.43)
 		)
 		(stroke
@@ -3601,6 +3366,16 @@
 			(type default)
 		)
 		(uuid "24f2c045-60d1-4796-8181-afbf1cf09130")
+	)
+	(wire
+		(pts
+			(xy 55.88 86.36) (xy 58.42 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "261f5a6a-a522-4753-b222-4a225559157c")
 	)
 	(wire
 		(pts
@@ -3624,13 +3399,23 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 170.18) (xy 46.99 170.18)
+			(xy 67.31 170.18) (xy 74.93 170.18)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "29421ccc-0538-4e89-a236-8b8247a6b826")
+		(uuid "2af943a3-9ece-439a-bce6-30cbcd45984f")
+	)
+	(wire
+		(pts
+			(xy 55.88 177.8) (xy 67.31 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b1f9aa9-7c70-4a8c-9d4b-4319e34cd203")
 	)
 	(wire
 		(pts
@@ -3661,6 +3446,16 @@
 			(type default)
 		)
 		(uuid "315f90e7-8a4e-409e-8956-8c9a83feaebd")
+	)
+	(wire
+		(pts
+			(xy 241.3 153.67) (xy 241.3 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "318025a9-9994-4ec8-a636-8e013b03be8e")
 	)
 	(wire
 		(pts
@@ -3704,23 +3499,13 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 124.46) (xy 193.04 147.32)
+			(xy 227.33 153.67) (xy 229.87 153.67)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3903af38-feb0-4d79-8b42-6e648e27cd18")
-	)
-	(wire
-		(pts
-			(xy 195.58 139.7) (xy 204.47 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "39ef46a8-9eeb-43df-b361-7ceaee8193f1")
+		(uuid "3986d5ce-1782-4496-8ed5-dacf9a68160c")
 	)
 	(wire
 		(pts
@@ -3744,13 +3529,23 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 124.46) (xy 243.84 134.62)
+			(xy 74.93 170.18) (xy 78.74 170.18)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "47321620-2cfb-46e5-90f4-dabf7aa144e0")
+		(uuid "40e4b5ba-da97-4b2b-bbdd-0399c8baf70e")
+	)
+	(wire
+		(pts
+			(xy 226.06 146.05) (xy 229.87 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44392baf-0b4f-409c-9ed7-ea762192ed0d")
 	)
 	(wire
 		(pts
@@ -3771,6 +3566,16 @@
 			(type default)
 		)
 		(uuid "4a43b1d9-4539-4a63-82c7-5630a2051d9e")
+	)
+	(wire
+		(pts
+			(xy 67.31 177.8) (xy 78.74 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c5b85ab-63f4-4916-b783-824d63951503")
 	)
 	(wire
 		(pts
@@ -3804,6 +3609,16 @@
 	)
 	(wire
 		(pts
+			(xy 45.72 170.18) (xy 55.88 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "571d50c0-917f-4bc8-851e-b5b5b737188d")
+	)
+	(wire
+		(pts
 			(xy 97.79 149.86) (xy 100.33 149.86)
 		)
 		(stroke
@@ -3821,6 +3636,26 @@
 			(type default)
 		)
 		(uuid "58bf0126-022c-4762-b210-55101819e29e")
+	)
+	(wire
+		(pts
+			(xy 198.12 156.21) (xy 198.12 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b607e96-33f1-4c9d-a785-9851685051ea")
+	)
+	(wire
+		(pts
+			(xy 195.58 142.24) (xy 195.58 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fce78f0-807b-44b9-bdfd-1780dd813692")
 	)
 	(wire
 		(pts
@@ -3854,16 +3689,6 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 170.18) (xy 74.93 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "64f46b94-7807-4aec-9abf-38fbfdb914d5")
-	)
-	(wire
-		(pts
 			(xy 175.26 104.14) (xy 175.26 105.41)
 		)
 		(stroke
@@ -3881,16 +3706,6 @@
 			(type default)
 		)
 		(uuid "6656c0b5-cd43-4002-8194-710db6d8d351")
-	)
-	(wire
-		(pts
-			(xy 240.03 134.62) (xy 243.84 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "67005fc1-6972-4352-950a-4f9e041b2379")
 	)
 	(wire
 		(pts
@@ -3934,6 +3749,16 @@
 	)
 	(wire
 		(pts
+			(xy 229.87 153.67) (xy 241.3 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f56b7da-eba5-4990-9772-64671df96920")
+	)
+	(wire
+		(pts
 			(xy 63.5 121.92) (xy 82.55 121.92)
 		)
 		(stroke
@@ -3974,16 +3799,6 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 113.03) (xy 204.47 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "79bf07a5-fc4c-40c4-910b-09528b3f96b5")
-	)
-	(wire
-		(pts
 			(xy 97.79 114.3) (xy 100.33 114.3)
 		)
 		(stroke
@@ -3991,16 +3806,6 @@
 			(type default)
 		)
 		(uuid "7a21ab18-45d1-415e-9853-7e629f26d4b1")
-	)
-	(wire
-		(pts
-			(xy 195.58 139.7) (xy 195.58 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7b8511c9-b0fb-4370-afef-e1c77a99feae")
 	)
 	(wire
 		(pts
@@ -4034,6 +3839,16 @@
 	)
 	(wire
 		(pts
+			(xy 196.85 149.86) (xy 196.85 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86f0c8c4-14bc-422e-9a40-ae3981239617")
+	)
+	(wire
+		(pts
 			(xy 90.17 139.7) (xy 90.17 144.78)
 		)
 		(stroke
@@ -4051,16 +3866,6 @@
 			(type default)
 		)
 		(uuid "89190a6d-5ede-4753-be3c-9d97c3f2b013")
-	)
-	(wire
-		(pts
-			(xy 46.99 177.8) (xy 55.88 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8c40def9-a753-4586-8729-5cd164260861")
 	)
 	(wire
 		(pts
@@ -4094,16 +3899,6 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 139.7) (xy 264.16 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "910b018f-85a9-4312-a072-cf45bad147f0")
-	)
-	(wire
-		(pts
 			(xy 25.4 138.43) (xy 25.4 139.7)
 		)
 		(stroke
@@ -4124,26 +3919,6 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 142.24) (xy 204.47 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "94c04666-bfed-4044-8430-c4b7fb394868")
-	)
-	(wire
-		(pts
-			(xy 240.03 139.7) (xy 247.65 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "95418809-af67-489b-bd3c-5238ee8f6b23")
-	)
-	(wire
-		(pts
 			(xy 48.26 139.7) (xy 63.5 139.7)
 		)
 		(stroke
@@ -4151,6 +3926,16 @@
 			(type default)
 		)
 		(uuid "9b2a6256-14ec-40a8-ba38-e9c1a0d7dd8c")
+	)
+	(wire
+		(pts
+			(xy 191.77 149.86) (xy 196.85 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b8974e1-b2f7-4edf-ae20-f3e9f18040a9")
 	)
 	(wire
 		(pts
@@ -4174,7 +3959,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 177.8) (xy 46.99 177.8)
+			(xy 35.56 177.8) (xy 45.72 177.8)
 		)
 		(stroke
 			(width 0)
@@ -4204,6 +3989,26 @@
 	)
 	(wire
 		(pts
+			(xy 35.56 170.18) (xy 45.72 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0bc0960-6cc6-4ee2-b000-763798c82b7b")
+	)
+	(wire
+		(pts
+			(xy 185.42 156.21) (xy 198.12 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a32b6ae2-6b67-430d-9949-8aaa8405a778")
+	)
+	(wire
+		(pts
 			(xy 90.17 144.78) (xy 100.33 144.78)
 		)
 		(stroke
@@ -4211,6 +4016,16 @@
 			(type default)
 		)
 		(uuid "a32c17cb-ed87-4666-915e-b9afe9238357")
+	)
+	(wire
+		(pts
+			(xy 226.06 148.59) (xy 227.33 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6fd82a8-af63-4280-bb45-9f38ad234088")
 	)
 	(wire
 		(pts
@@ -4304,6 +4119,26 @@
 	)
 	(wire
 		(pts
+			(xy 226.06 143.51) (xy 229.87 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5dd1774-c428-4b3c-a380-7976686d29f1")
+	)
+	(wire
+		(pts
+			(xy 196.85 148.59) (xy 198.12 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b641f9b5-818f-45e8-863c-14f736fca866")
+	)
+	(wire
+		(pts
 			(xy 140.97 114.3) (xy 144.78 114.3)
 		)
 		(stroke
@@ -4331,6 +4166,16 @@
 			(type default)
 		)
 		(uuid "b9d5ed8d-0482-4efb-bbd1-114b300bc811")
+	)
+	(wire
+		(pts
+			(xy 191.77 142.24) (xy 195.58 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba1b28e8-8d41-41ff-b9e1-569b628a9e4c")
 	)
 	(wire
 		(pts
@@ -4404,7 +4249,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 153.67) (xy 160.02 137.16)
+			(xy 156.21 142.24) (xy 156.21 137.16)
 		)
 		(stroke
 			(width 0)
@@ -4434,13 +4279,13 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 113.03) (xy 212.09 115.57)
+			(xy 156.21 142.24) (xy 185.42 142.24)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c43d37a1-908a-4903-be6c-d8453f6e2d76")
+		(uuid "c313b21e-a60d-4f4d-8e37-e6aa327f125a")
 	)
 	(wire
 		(pts
@@ -4484,7 +4329,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 151.13) (xy 157.48 134.62)
+			(xy 153.67 139.7) (xy 153.67 134.62)
 		)
 		(stroke
 			(width 0)
@@ -4494,7 +4339,17 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 170.18) (xy 55.88 170.18)
+			(xy 55.88 170.18) (xy 67.31 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cdeff1eb-a961-4307-9cc1-248a85a15ba8")
+	)
+	(wire
+		(pts
+			(xy 30.48 170.18) (xy 35.56 170.18)
 		)
 		(stroke
 			(width 0)
@@ -4504,13 +4359,13 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 153.67) (xy 199.39 153.67)
+			(xy 45.72 177.8) (xy 55.88 177.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d0bde1d0-ab8c-4916-b683-70af5e4a5acb")
+		(uuid "d206d5f7-274c-452f-9f16-b12ffb09f3bf")
 	)
 	(wire
 		(pts
@@ -4544,7 +4399,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 137.16) (xy 160.02 137.16)
+			(xy 156.21 137.16) (xy 140.97 137.16)
 		)
 		(stroke
 			(width 0)
@@ -4574,7 +4429,17 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 151.13) (xy 195.58 151.13)
+			(xy 55.88 88.9) (xy 60.96 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e400f40e-0d16-445d-84b9-98a1f52b4db4")
+	)
+	(wire
+		(pts
+			(xy 153.67 139.7) (xy 198.12 139.7)
 		)
 		(stroke
 			(width 0)
@@ -4594,23 +4459,23 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 142.24) (xy 199.39 153.67)
+			(xy 58.42 86.36) (xy 58.42 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e773aa8e-10d8-4999-af86-5076865a3a98")
+		(uuid "eb299dd3-e2a6-4967-b560-0cbae129e8b7")
 	)
 	(wire
 		(pts
-			(xy 204.47 107.95) (xy 204.47 113.03)
+			(xy 226.06 151.13) (xy 226.06 152.4)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e81e9706-2f88-454a-b19d-5fa96b750b88")
+		(uuid "ec1e07fb-cc52-4072-87f7-92898c52c0ff")
 	)
 	(wire
 		(pts
@@ -4664,13 +4529,13 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 142.24) (xy 241.3 142.24)
+			(xy 229.87 146.05) (xy 241.3 146.05)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f1c0bce0-1f62-423a-8b16-befd515345d2")
+		(uuid "f13fb6a1-526b-434c-8065-f6b5958dc87f")
 	)
 	(wire
 		(pts
@@ -4681,26 +4546,6 @@
 			(type default)
 		)
 		(uuid "f237b8c6-d87e-437f-a5a2-f026f175fd07")
-	)
-	(wire
-		(pts
-			(xy 30.48 170.18) (xy 35.56 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f350b19c-c96a-4ae1-8962-3ddfeab3bb73")
-	)
-	(wire
-		(pts
-			(xy 254 142.24) (xy 264.16 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fa3b0b17-900f-46ec-8993-a305e15669ab")
 	)
 	(wire
 		(pts
@@ -4724,6 +4569,16 @@
 	)
 	(wire
 		(pts
+			(xy 198.12 139.7) (xy 198.12 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc250572-c09c-4d6b-bf08-c2590819aee5")
+	)
+	(wire
+		(pts
 			(xy 86.36 128.27) (xy 57.15 128.27)
 		)
 		(stroke
@@ -4741,6 +4596,16 @@
 			(type default)
 		)
 		(uuid "fec98c70-4e79-4f39-bf35-2ea48bb6ff3f")
+	)
+	(wire
+		(pts
+			(xy 227.33 148.59) (xy 227.33 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffa91f5f-720f-4801-a30d-f5c524c8b992")
 	)
 	(wire
 		(pts
@@ -4763,24 +4628,44 @@
 		(uuid "01768532-419d-47a3-a33f-a4cde9756e94")
 	)
 	(label "CANH"
-		(at 256.54 139.7 0)
+		(at 238.76 146.05 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "56308d5a-480b-43e9-b00a-a3c4bb67dbd0")
+		(uuid "35909230-d3da-4b80-a8d1-7cd9ed58dd9d")
 	)
 	(label "CANL"
-		(at 256.54 142.24 0)
+		(at 236.22 153.67 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "7aaa2270-68b0-484b-9c34-f3c688b08c2d")
+		(uuid "6ff5de19-a4c2-472c-9468-2ad86f0325a9")
+	)
+	(label "3v3"
+		(at 88.9 109.22 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b0439576-d9f6-4718-9ccf-36b2ddc964af")
+	)
+	(label "BUCK_5V"
+		(at 191.77 149.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b41dd415-c5ac-4ed9-97d2-683378a8e9a3")
 	)
 	(label "BUCK_5V"
 		(at 74.93 156.21 0)
@@ -4792,15 +4677,15 @@
 		)
 		(uuid "e2b13f4b-6096-4c04-ae71-857049b2446d")
 	)
-	(label "BUCK_5V"
-		(at 204.47 107.95 0)
+	(label "3v3"
+		(at 226.06 152.4 270)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "ea06487c-88c6-4582-bafb-fedbb81ec727")
+		(uuid "fa8c1d7f-2060-4427-8d42-71544f61f574")
 	)
 	(global_label "5.2V_OUT"
 		(shape output)
@@ -4909,111 +4794,6 @@
 		)
 	)
 	(symbol
-		(lib_id "10TPE47MAZB:10TPE47MAZB")
-		(at 55.88 175.26 90)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "0bdd35ca-6bbf-460d-8d3b-b399caf6a62c")
-		(property "Reference" "C4"
-			(at 52.07 172.7199 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "47uF"
-			(at 55.626 172.466 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3528-21_Kemet-B_HandSolder"
-			(at 55.88 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/3/508/1/T520B476M010ATE035.pdf"
-			(at 55.88 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Kemet T520B476M010ATE035"
-			(at 55.88 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Specs" "Cap: 47 µF VDC: 10 V ESR: 35 mΩ"
-			(at 55.88 175.26 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Purchase Link" "https://www.mouser.com/en/ProductDetail/KEMET/T520B476M010ATE035?qs=pO9a3qNHhpF5ZUO8%2FwrZRg%3D%3D"
-			(at 55.88 175.26 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d895be80-584f-41ae-b207-beb787c2ab61")
-		)
-		(pin "2"
-			(uuid "c972aaa2-ab4d-49f7-b8e4-a41f7baf1f9b")
-		)
-		(instances
-			(project "Microcontroller"
-				(path "/c58806c5-432f-4c41-8983-8e5fd30a3703"
-					(reference "C4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 35.56 177.8 0)
 		(mirror y)
@@ -5087,6 +4867,84 @@
 			(project "Microcontroller"
 				(path "/c58806c5-432f-4c41-8983-8e5fd30a3703"
 					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 87.63 147.32 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "15e19115-c0b7-4727-a217-65845d563f36")
+		(property "Reference" "#PWR012"
+			(at 87.63 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 87.63 152.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 87.63 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 87.63 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 87.63 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b0cccc64-0c29-4ade-a972-1bcaed8592c0")
+		)
+		(instances
+			(project "Microcontroller"
+				(path "/c58806c5-432f-4c41-8983-8e5fd30a3703"
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -5248,6 +5106,362 @@
 		)
 	)
 	(symbol
+		(lib_id "PROVE:1206B104K500CT")
+		(at 78.74 173.99 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1f9a39ca-e615-48ab-9fc8-a0b992cc10c7")
+		(property "Reference" "C10"
+			(at 80.518 171.958 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100nF"
+			(at 79.502 175.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 77.7748 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/72/1/C0805X104K1RACAUTO.pdf"
+			(at 78.74 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "KEMET C0805X104K1RACAUTO"
+			(at 78.74 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Category" "Capacitor"
+			(at 78.74 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "1206B104K500CT"
+			(at 78.74 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Walsin Technology Corporation"
+			(at 78.74 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturing Status" ""
+			(at 78.74 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part-DB Footprint" "1206"
+			(at 78.74 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part-DB ID" "28"
+			(at 78.74 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "A_max" ""
+			(at 78.74 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "A_min" ""
+			(at 78.74 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "A_nom" ""
+			(at 78.74 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "D_max" ""
+			(at 78.74 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "D_min" ""
+			(at 78.74 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "D_nom" ""
+			(at 78.74 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_Part_Number" ""
+			(at 78.74 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "E_max" ""
+			(at 78.74 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "E_min" ""
+			(at 78.74 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "E_nom" ""
+			(at 78.74 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "L1_max" ""
+			(at 78.74 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "L1_min" ""
+			(at 78.74 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "L1_nom" ""
+			(at 78.74 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "L_max" ""
+			(at 78.74 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "L_min" ""
+			(at 78.74 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "L_nom" ""
+			(at 78.74 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 78.74 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Purchase Link" "https://www.mouser.com/en/ProductDetail/KEMET/C0805X104K1RACAUTO?qs=5tc40Ec9vCUZifvagWkRsQ%3D%3D"
+			(at 78.74 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Specs" "100 nF, 100 V, X7R, ±10%"
+			(at 78.74 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5eacf90c-a0f6-4d2c-a3d2-934869b54750")
+		)
+		(pin "2"
+			(uuid "80445207-cb10-4635-9322-164656a79834")
+		)
+		(instances
+			(project "Microcontroller"
+				(path "/c58806c5-432f-4c41-8983-8e5fd30a3703"
+					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 46.99 161.29 90)
 		(unit 1)
@@ -5321,6 +5535,364 @@
 			(project "Microcontroller"
 				(path "/c58806c5-432f-4c41-8983-8e5fd30a3703"
 					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PROVE_Symbols:TJA1044BT_0Z")
+		(at 198.12 143.51 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "269f580a-4714-4e61-b756-777cdf3949f9")
+		(property "Reference" "IC1"
+			(at 212.09 135.89 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TJA1044BT/0Z"
+			(at 212.09 138.43 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PROVE-footprints:SOIC127P600X175-8N"
+			(at 222.25 238.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.nxp.com/docs/en/data-sheet/TJA1044.pdf"
+			(at 222.25 338.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "CAN Interface IC High-Speed CAN Transceiver with Standby Mode"
+			(at 198.12 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "1.75"
+			(at 222.25 538.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "771-TJA1044BT/0Z"
+			(at 222.25 638.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.com/en/ProductDetail/NXP-Semiconductors/TJA1044BT-0Z?qs=Jm2GQyTW%2FbgYs3n%2F8ftS8A%3D%3D&srsltid=AfmBOopWjCady6FP_pQVV-nnNuW5JpsUE4LWStG_kB9xKYqPWWK-gMqD"
+			(at 222.25 738.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "NXP"
+			(at 222.25 838.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "TJA1044BT/0Z"
+			(at 222.25 938.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "A_max" ""
+			(at 198.12 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "A_min" ""
+			(at 198.12 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "A_nom" ""
+			(at 198.12 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "D_max" ""
+			(at 198.12 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "D_min" ""
+			(at 198.12 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "D_nom" ""
+			(at 198.12 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_Part_Number" ""
+			(at 198.12 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "E_max" ""
+			(at 198.12 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "E_min" ""
+			(at 198.12 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "E_nom" ""
+			(at 198.12 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "L1_max" ""
+			(at 198.12 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "L1_min" ""
+			(at 198.12 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "L1_nom" ""
+			(at 198.12 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "L_max" ""
+			(at 198.12 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "L_min" ""
+			(at 198.12 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "L_nom" ""
+			(at 198.12 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 198.12 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Purchase Link" "https://www.mouser.com/en/ProductDetail/NXP-Semiconductors/TJA1044BT-0Z?qs=Jm2GQyTW%2FbgYs3n%2F8ftS8A%3D%3D"
+			(at 198.12 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "f9d595cd-24bd-4c4b-95bb-bd26cc25b8d7")
+		)
+		(pin "8"
+			(uuid "ce631a4b-7c6a-4c25-b1a6-f6e39079bb20")
+		)
+		(pin "6"
+			(uuid "03f18831-3ffe-4f17-bf7c-61b729fffb4c")
+		)
+		(pin "7"
+			(uuid "6c0a64ca-629f-4e89-951d-b60f0602b15d")
+		)
+		(pin "1"
+			(uuid "90b85127-64db-4cd0-ba29-98101cfc829f")
+		)
+		(pin "3"
+			(uuid "d9ae66ba-7a00-4803-bf41-b0bf5c0c99b6")
+		)
+		(pin "5"
+			(uuid "3692e8e8-5cb4-4fc3-a546-edc95deaa1c3")
+		)
+		(pin "4"
+			(uuid "3a027809-148e-4a08-a138-31fc309b1f81")
+		)
+		(instances
+			(project "Microcontroller"
+				(path "/c58806c5-432f-4c41-8983-8e5fd30a3703"
+					(reference "IC1")
 					(unit 1)
 				)
 			)
@@ -5467,158 +6039,6 @@
 		)
 	)
 	(symbol
-		(lib_id "PROVE:1206B104K500CT")
-		(at 208.28 113.03 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim yes)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "41ee96f3-716f-4322-8627-e1a6a100ba3c")
-		(property "Reference" "C7"
-			(at 208.28 105.41 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0.1u"
-			(at 208.28 107.95 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
-			(at 204.47 113.9952 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://138.2.231.237:8080/en/part/28/info"
-			(at 208.28 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "CAP CER 0.1UF 50V X7R 1206"
-			(at 208.28 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Category" "Capacitor"
-			(at 208.28 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "1206B104K500CT"
-			(at 208.28 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Walsin Technology Corporation"
-			(at 208.28 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturing Status" ""
-			(at 208.28 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part-DB Footprint" "1206"
-			(at 208.28 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part-DB ID" "28"
-			(at 208.28 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "616237c7-32b5-4d36-a8ef-864c2f76b6be")
-		)
-		(pin "2"
-			(uuid "b58de6f9-6bd8-43f5-8c20-eb2ef3c19262")
-		)
-		(instances
-			(project ""
-				(path "/9602f2a9-59de-4c89-af09-0033871e87a5/20236dec-7072-4353-8cea-326a2b34f7fc"
-					(reference "C1")
-					(unit 1)
-				)
-			)
-			(project "Microcontroller"
-				(path "/c58806c5-432f-4c41-8983-8e5fd30a3703"
-					(reference "C7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 26.67 151.13 270)
 		(unit 1)
@@ -5629,7 +6049,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "474d4f41-78c7-49de-871e-17314edd3b23")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR16"
 			(at 20.32 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -5691,7 +6111,7 @@
 		(instances
 			(project "Microcontroller"
 				(path "/c58806c5-432f-4c41-8983-8e5fd30a3703"
-					(reference "#PWR03")
+					(reference "#PWR16")
 					(unit 1)
 				)
 			)
@@ -5789,7 +6209,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5247a391-6756-4395-acc0-7696a5175295")
-		(property "Reference" "R7"
+		(property "Reference" "R3"
 			(at 173.99 129.54 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5851,15 +6271,15 @@
 		(instances
 			(project "Microcontroller"
 				(path "/c58806c5-432f-4c41-8983-8e5fd30a3703"
-					(reference "R7")
+					(reference "R3")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 76.2 143.51 0)
+		(lib_id "power:GND")
+		(at 144.78 109.22 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5868,31 +6288,31 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "59a464ba-145a-405d-93fc-4c3d28a99818")
-		(property "Reference" "C1"
-			(at 78.74 142.2462 0)
+		(uuid "534bde1e-e927-4866-8263-d6b123010f49")
+		(property "Reference" "#PWR014"
+			(at 151.13 109.22 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "100nF"
-			(at 78.74 144.7862 0)
+		(property "Value" "GND"
+			(at 148.59 109.2199 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
-			(at 76.2 143.51 0)
+		(property "Footprint" ""
+			(at 144.78 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5903,7 +6323,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 76.2 143.51 0)
+			(at 144.78 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5913,8 +6333,8 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 76.2 143.51 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 144.78 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5925,23 +6345,20 @@
 			)
 		)
 		(pin "1"
-			(uuid "5aa1e3c6-11f7-4c67-bc3c-a4c81a5cd680")
-		)
-		(pin "2"
-			(uuid "cae98743-bf72-417d-a56b-d247cb7dce42")
+			(uuid "554b39a2-b850-4e5a-9c70-5e8f084ff7cb")
 		)
 		(instances
 			(project "Microcontroller"
 				(path "/c58806c5-432f-4c41-8983-8e5fd30a3703"
-					(reference "C1")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "PROVE:RMCF1206JT120R")
-		(at 247.65 143.51 0)
+		(lib_id "PROVE:1206B104K500CT")
+		(at 67.31 173.99 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim yes)
@@ -5949,32 +6366,31 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5f5d8121-68ba-41a0-9909-61680cbb0b01")
-		(property "Reference" "R_TERM1"
-			(at 250.19 142.2399 0)
+		(uuid "62d96bcf-6496-416f-b7d7-26a6f596dfe8")
+		(property "Reference" "C9"
+			(at 69.088 171.958 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "120"
-			(at 250.19 144.7799 0)
+		(property "Value" "100nF"
+			(at 68.072 175.26 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 248.666 143.764 90)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 66.3448 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5984,8 +6400,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://138.2.231.237:8080/en/part/26/info"
-			(at 247.65 143.51 0)
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/72/1/C0805X104K1RACAUTO.pdf"
+			(at 67.31 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5995,8 +6411,8 @@
 				)
 			)
 		)
-		(property "Description" "RES 120 OHM 5% 1/4W 1206"
-			(at 247.65 143.51 0)
+		(property "Description" "KEMET C0805X104K1RACAUTO"
+			(at 67.31 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6006,8 +6422,8 @@
 				)
 			)
 		)
-		(property "Category" "Resistor"
-			(at 247.65 143.51 0)
+		(property "Category" "Capacitor"
+			(at 67.31 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6017,8 +6433,8 @@
 				)
 			)
 		)
-		(property "MPN" "RMCF1206JT120R"
-			(at 247.65 143.51 0)
+		(property "MPN" "1206B104K500CT"
+			(at 67.31 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6028,8 +6444,8 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Stackpole Electronics"
-			(at 247.65 143.51 0)
+		(property "Manufacturer" "Walsin Technology Corporation"
+			(at 67.31 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6040,7 +6456,7 @@
 			)
 		)
 		(property "Manufacturing Status" ""
-			(at 247.65 143.51 0)
+			(at 67.31 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6051,7 +6467,7 @@
 			)
 		)
 		(property "Part-DB Footprint" "1206"
-			(at 247.65 143.51 0)
+			(at 67.31 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6061,8 +6477,8 @@
 				)
 			)
 		)
-		(property "Part-DB ID" "26"
-			(at 247.65 143.51 0)
+		(property "Part-DB ID" "28"
+			(at 67.31 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6072,22 +6488,595 @@
 				)
 			)
 		)
-		(pin "2"
-			(uuid "76b9f79b-cf67-411f-8a5c-8774f77492f1")
+		(property "A_max" ""
+			(at 67.31 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "A_min" ""
+			(at 67.31 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "A_nom" ""
+			(at 67.31 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "D_max" ""
+			(at 67.31 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "D_min" ""
+			(at 67.31 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "D_nom" ""
+			(at 67.31 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_Part_Number" ""
+			(at 67.31 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "E_max" ""
+			(at 67.31 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "E_min" ""
+			(at 67.31 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "E_nom" ""
+			(at 67.31 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "L1_max" ""
+			(at 67.31 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "L1_min" ""
+			(at 67.31 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "L1_nom" ""
+			(at 67.31 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "L_max" ""
+			(at 67.31 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "L_min" ""
+			(at 67.31 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "L_nom" ""
+			(at 67.31 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 67.31 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Purchase Link" "https://www.mouser.com/en/ProductDetail/KEMET/C0805X104K1RACAUTO?qs=5tc40Ec9vCUZifvagWkRsQ%3D%3D"
+			(at 67.31 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Specs" "100 nF, 100 V, X7R, ±10%"
+			(at 67.31 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "1"
-			(uuid "017d9807-2321-40a5-a282-179eb2fb00ec")
+			(uuid "84314c38-b0ad-49cd-afd4-50b267780d76")
+		)
+		(pin "2"
+			(uuid "aa76cef2-a3f0-4ba1-bc50-53038461f3a8")
 		)
 		(instances
-			(project ""
-				(path "/9602f2a9-59de-4c89-af09-0033871e87a5/20236dec-7072-4353-8cea-326a2b34f7fc"
-					(reference "R4")
+			(project "Microcontroller"
+				(path "/c58806c5-432f-4c41-8983-8e5fd30a3703"
+					(reference "C9")
 					(unit 1)
 				)
 			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 193.04 124.46 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6598dcb5-2d59-4e87-a82b-8d586bece1cc")
+		(property "Reference" "#PWR015"
+			(at 193.04 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 193.04 129.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 193.04 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 193.04 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 193.04 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3bc101ac-c5d0-4456-b6c3-9857199e421a")
+		)
+		(instances
 			(project "Microcontroller"
 				(path "/c58806c5-432f-4c41-8983-8e5fd30a3703"
-					(reference "R_TERM1")
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "10TPE47MAZB:10TPE47MAZB")
+		(at 45.72 175.26 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6609b81b-5c5c-40c6-936b-64c6370b13ce")
+		(property "Reference" "C3"
+			(at 49.53 172.7199 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47uF"
+			(at 49.53 175.2599 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3528-21_Kemet-B_HandSolder"
+			(at 45.72 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/508/1/KEM_T2073_T59X.pdf"
+			(at 45.72 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "KEMET T598B476M010ATW070"
+			(at 45.72 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Specs" "Cap: 47 µF VDC: 10 V"
+			(at 45.72 175.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Purchase Link" "https://www.mouser.com/en/ProductDetail/KEMET/T598B476M010ATW070?qs=VVKQmw408U9XqcJadHmXUg%3D%3D"
+			(at 45.72 175.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "A_max" ""
+			(at 45.72 175.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "A_min" ""
+			(at 45.72 175.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "A_nom" ""
+			(at 45.72 175.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "D_max" ""
+			(at 45.72 175.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "D_min" ""
+			(at 45.72 175.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "D_nom" ""
+			(at 45.72 175.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_Part_Number" ""
+			(at 45.72 175.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "E_max" ""
+			(at 45.72 175.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "E_min" ""
+			(at 45.72 175.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "E_nom" ""
+			(at 45.72 175.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "L1_max" ""
+			(at 45.72 175.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "L1_min" ""
+			(at 45.72 175.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "L1_nom" ""
+			(at 45.72 175.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "L_max" ""
+			(at 45.72 175.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "L_min" ""
+			(at 45.72 175.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "L_nom" ""
+			(at 45.72 175.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 45.72 175.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e1ac547f-f0dd-4fbd-9f77-8f95b3d63cf3")
+		)
+		(pin "2"
+			(uuid "354823e6-a808-4246-90df-87e97fb0efa4")
+		)
+		(instances
+			(project "Microcontroller"
+				(path "/c58806c5-432f-4c41-8983-8e5fd30a3703"
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -6252,6 +7241,362 @@
 		)
 	)
 	(symbol
+		(lib_id "PROVE:1206B104K500CT")
+		(at 191.77 146.05 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7c60cbc5-1243-45ba-9adb-a092ac96bf0c")
+		(property "Reference" "C7"
+			(at 193.548 144.018 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100nF"
+			(at 192.532 147.32 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 190.8048 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/72/1/C0805X104K1RACAUTO.pdf"
+			(at 191.77 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "KEMET C0805X104K1RACAUTO"
+			(at 191.77 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Category" "Capacitor"
+			(at 191.77 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "1206B104K500CT"
+			(at 191.77 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Walsin Technology Corporation"
+			(at 191.77 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturing Status" ""
+			(at 191.77 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part-DB Footprint" "1206"
+			(at 191.77 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part-DB ID" "28"
+			(at 191.77 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "A_max" ""
+			(at 191.77 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "A_min" ""
+			(at 191.77 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "A_nom" ""
+			(at 191.77 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "D_max" ""
+			(at 191.77 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "D_min" ""
+			(at 191.77 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "D_nom" ""
+			(at 191.77 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_Part_Number" ""
+			(at 191.77 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "E_max" ""
+			(at 191.77 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "E_min" ""
+			(at 191.77 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "E_nom" ""
+			(at 191.77 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "L1_max" ""
+			(at 191.77 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "L1_min" ""
+			(at 191.77 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "L1_nom" ""
+			(at 191.77 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "L_max" ""
+			(at 191.77 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "L_min" ""
+			(at 191.77 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "L_nom" ""
+			(at 191.77 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 191.77 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Purchase Link" "https://www.mouser.com/en/ProductDetail/KEMET/C0805X104K1RACAUTO?qs=5tc40Ec9vCUZifvagWkRsQ%3D%3D"
+			(at 191.77 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Specs" "100 nF, 100 V, X7R, ±10%"
+			(at 191.77 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9e914490-f1f3-4298-b377-c432a9cf2a37")
+		)
+		(pin "2"
+			(uuid "ff44fd98-fd21-496a-868c-96d7dc981aff")
+		)
+		(instances
+			(project "Microcontroller"
+				(path "/c58806c5-432f-4c41-8983-8e5fd30a3703"
+					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 26.67 147.32 270)
 		(unit 1)
@@ -6331,8 +7676,8 @@
 		)
 	)
 	(symbol
-		(lib_id "10TPE47MAZB:10TPE47MAZB")
-		(at 46.99 175.26 270)
+		(lib_id "PROVE_Symbols:39-28-1023")
+		(at 241.3 146.05 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6340,9 +7685,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "83d29b04-1ac9-4bfc-88ee-576d0782f0b9")
-		(property "Reference" "C3"
-			(at 50.8 172.7199 90)
+		(fields_autoplaced yes)
+		(uuid "8b93f7a4-df91-4844-8a76-99221b20b054")
+		(property "Reference" "J2"
+			(at 257.81 146.0499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6352,8 +7698,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47uF"
-			(at 47.244 172.466 90)
+		(property "Value" "39-28-1023"
+			(at 257.81 148.5899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6363,8 +7709,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3528-21_Kemet-B_HandSolder"
-			(at 46.99 175.26 0)
+		(property "Footprint" "PROVE-footprints:39-28-1023"
+			(at 257.81 240.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6372,11 +7718,11 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
+				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/3/508/1/T520B476M010ATE035.pdf"
-			(at 46.99 175.26 0)
+		(property "Datasheet" "https://www.molex.com/pdm_docs/sd/039281023_sd.pdf"
+			(at 257.81 340.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6384,21 +7730,11 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
-		(property "Description" "Kemet T520B476M010ATE035"
-			(at 46.99 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Specs" "Cap: 47 µF VDC: 10 V ESR: 35 mΩ"
-			(at 46.99 175.26 90)
+		(property "Description" "Mini-Fit Jr. Vertical Header, 4.20mm Pitch, Dual Row, 2 Circuits, without Snap-in Plastic Peg PCB Lock, Tin, Natural"
+			(at 241.3 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6408,8 +7744,8 @@
 				)
 			)
 		)
-		(property "Purchase Link" "https://www.mouser.com/en/ProductDetail/KEMET/T520B476M010ATE035?qs=pO9a3qNHhpF5ZUO8%2FwrZRg%3D%3D"
-			(at 46.99 175.26 90)
+		(property "Height" "12.8"
+			(at 257.81 540.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6417,36 +7753,86 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
-		(pin "1"
-			(uuid "6d5e55dc-b1d2-46d8-b23f-3e743f0487ce")
+		(property "Mouser Part Number" "538-39-28-1023"
+			(at 257.81 640.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Molex/39-28-1023?qs=LQQHZ4xw2XBykFU0jRHvlQ%3D%3D"
+			(at 257.81 740.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Molex"
+			(at 257.81 840.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "39-28-1023"
+			(at 257.81 940.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
 		)
 		(pin "2"
-			(uuid "48b9f744-9565-4b38-a2fb-efbb74ee7755")
+			(uuid "80e59edc-12de-4e3b-9c9d-412fcc53637a")
+		)
+		(pin "1"
+			(uuid "7e6b927e-e098-45a7-b22e-21767bcbf4bb")
 		)
 		(instances
 			(project "Microcontroller"
 				(path "/c58806c5-432f-4c41-8983-8e5fd30a3703"
-					(reference "C3")
+					(reference "J2")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "10TPE47MAZB:10TPE47MAZB")
-		(at 35.56 175.26 270)
+		(lib_id "Mechanical:MountingHole")
+		(at 201.93 82.55 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "853a7058-3fa9-408f-a116-bb2cca974744")
-		(property "Reference" "C2"
-			(at 39.37 172.7199 90)
+		(fields_autoplaced yes)
+		(uuid "98d1e585-4158-4202-8fb6-b3b1959b11d0")
+		(property "Reference" "M4"
+			(at 204.47 81.2799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6456,8 +7842,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47uF"
-			(at 35.814 172.466 90)
+		(property "Value" "MountingHole"
+			(at 204.47 83.8199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6467,20 +7853,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3528-21_Kemet-B_HandSolder"
-			(at 35.56 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/3/508/1/T520B476M010ATE035.pdf"
-			(at 35.56 175.26 0)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 201.93 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6490,8 +7864,8 @@
 				)
 			)
 		)
-		(property "Description" "Kemet T520B476M010ATE035"
-			(at 35.56 175.26 0)
+		(property "Datasheet" ""
+			(at 201.93 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6501,8 +7875,8 @@
 				)
 			)
 		)
-		(property "Specs" "Cap: 47 µF VDC: 10 V ESR: 35 mΩ"
-			(at 35.56 175.26 90)
+		(property "Description" "Mounting Hole without connection"
+			(at 201.93 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6511,28 +7885,11 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(property "Purchase Link" "https://www.mouser.com/en/ProductDetail/KEMET/T520B476M010ATE035?qs=pO9a3qNHhpF5ZUO8%2FwrZRg%3D%3D"
-			(at 35.56 175.26 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e15b0fa6-4215-47fe-afc3-a02281f0d851")
-		)
-		(pin "2"
-			(uuid "909f01fe-c423-4a24-b66b-4bf85ca57d60")
 		)
 		(instances
 			(project "Microcontroller"
 				(path "/c58806c5-432f-4c41-8983-8e5fd30a3703"
-					(reference "C2")
+					(reference "M4")
 					(unit 1)
 				)
 			)
@@ -6628,7 +7985,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9f8c57b0-e6a2-40f7-bc62-95d964d8db85")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR17"
 			(at 20.32 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -6690,7 +8047,7 @@
 		(instances
 			(project "Microcontroller"
 				(path "/c58806c5-432f-4c41-8983-8e5fd30a3703"
-					(reference "#PWR04")
+					(reference "#PWR17")
 					(unit 1)
 				)
 			)
@@ -6773,8 +8130,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 212.09 115.57 0)
+		(lib_id "10TPE47MAZB:10TPE47MAZB")
+		(at 55.88 175.26 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6783,20 +8140,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "a157308c-a0d9-489b-83b1-fbdc8ec1fead")
-		(property "Reference" "#PWR012"
-			(at 212.09 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 214.63 116.8399 0)
+		(uuid "a556f6c3-1150-4ed6-b802-b52743550475")
+		(property "Reference" "C4"
+			(at 59.69 172.7199 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6806,8 +8152,31 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 212.09 115.57 0)
+		(property "Value" "47uF"
+			(at 59.69 175.2599 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3528-21_Kemet-B_HandSolder"
+			(at 55.88 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/508/1/KEM_T2073_T59X.pdf"
+			(at 55.88 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6817,8 +8186,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 212.09 115.57 0)
+		(property "Description" "KEMET T598B476M010ATW070"
+			(at 55.88 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6828,8 +8197,206 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 212.09 115.57 0)
+		(property "Specs" "Cap: 47 µF VDC: 10 V"
+			(at 55.88 175.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Purchase Link" "https://www.mouser.com/en/ProductDetail/KEMET/T598B476M010ATW070?qs=VVKQmw408U9XqcJadHmXUg%3D%3D"
+			(at 55.88 175.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "A_max" ""
+			(at 55.88 175.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "A_min" ""
+			(at 55.88 175.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "A_nom" ""
+			(at 55.88 175.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "D_max" ""
+			(at 55.88 175.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "D_min" ""
+			(at 55.88 175.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "D_nom" ""
+			(at 55.88 175.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_Part_Number" ""
+			(at 55.88 175.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "E_max" ""
+			(at 55.88 175.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "E_min" ""
+			(at 55.88 175.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "E_nom" ""
+			(at 55.88 175.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "L1_max" ""
+			(at 55.88 175.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "L1_min" ""
+			(at 55.88 175.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "L1_nom" ""
+			(at 55.88 175.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "L_max" ""
+			(at 55.88 175.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "L_min" ""
+			(at 55.88 175.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "L_nom" ""
+			(at 55.88 175.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 55.88 175.26 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6840,97 +8407,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "5ed95e47-8d6e-453e-b33b-3db14fc8aa79")
+			(uuid "cf8efbb1-5d6f-4574-89f9-3a4a7169f7b9")
 		)
-		(instances
-			(project "Basic_Node_Board"
-				(path "/9602f2a9-59de-4c89-af09-0033871e87a5/20236dec-7072-4353-8cea-326a2b34f7fc"
-					(reference "#PWR013")
-					(unit 1)
-				)
-			)
-			(project "Microcontroller"
-				(path "/c58806c5-432f-4c41-8983-8e5fd30a3703"
-					(reference "#PWR012")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 193.04 147.32 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a2e28e52-f7df-499d-9c23-2ab707464fb1")
-		(property "Reference" "#PWR011"
-			(at 193.04 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 195.58 148.5899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 193.04 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 193.04 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 193.04 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c36eead3-b76c-4c48-a391-ac6862e74d11")
+		(pin "2"
+			(uuid "e49a8b22-7b89-43c4-8851-fe55d2857006")
 		)
 		(instances
 			(project "Microcontroller"
 				(path "/c58806c5-432f-4c41-8983-8e5fd30a3703"
-					(reference "#PWR011")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -7009,6 +8494,441 @@
 			(project "Microcontroller"
 				(path "/c58806c5-432f-4c41-8983-8e5fd30a3703"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PROVE:1206B104K500CT")
+		(at 76.2 143.51 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b4f79e22-a9bb-492d-a697-fd8b4122ffbd")
+		(property "Reference" "C8"
+			(at 77.978 141.478 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100nF"
+			(at 76.962 144.78 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 75.2348 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/72/1/C0805X104K1RACAUTO.pdf"
+			(at 76.2 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "KEMET C0805X104K1RACAUTO"
+			(at 76.2 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Category" "Capacitor"
+			(at 76.2 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "1206B104K500CT"
+			(at 76.2 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Walsin Technology Corporation"
+			(at 76.2 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturing Status" ""
+			(at 76.2 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part-DB Footprint" "1206"
+			(at 76.2 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part-DB ID" "28"
+			(at 76.2 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "A_max" ""
+			(at 76.2 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "A_min" ""
+			(at 76.2 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "A_nom" ""
+			(at 76.2 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "D_max" ""
+			(at 76.2 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "D_min" ""
+			(at 76.2 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "D_nom" ""
+			(at 76.2 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_Part_Number" ""
+			(at 76.2 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "E_max" ""
+			(at 76.2 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "E_min" ""
+			(at 76.2 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "E_nom" ""
+			(at 76.2 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "L1_max" ""
+			(at 76.2 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "L1_min" ""
+			(at 76.2 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "L1_nom" ""
+			(at 76.2 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "L_max" ""
+			(at 76.2 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "L_min" ""
+			(at 76.2 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "L_nom" ""
+			(at 76.2 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 76.2 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Purchase Link" "https://www.mouser.com/en/ProductDetail/KEMET/C0805X104K1RACAUTO?qs=5tc40Ec9vCUZifvagWkRsQ%3D%3D"
+			(at 76.2 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Specs" "100 nF, 100 V, X7R, ±10%"
+			(at 76.2 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5c648c0e-de14-46ac-a523-0926d7d3a868")
+		)
+		(pin "2"
+			(uuid "f04d6a3a-7261-4081-93bd-ee294d4e8fc5")
+		)
+		(instances
+			(project "Microcontroller"
+				(path "/c58806c5-432f-4c41-8983-8e5fd30a3703"
+					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 229.87 143.51 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c59e7447-4025-464a-92cc-e55d111ad874")
+		(property "Reference" "#PWR024"
+			(at 236.22 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 233.68 143.5099 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 229.87 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 229.87 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 229.87 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c4ce3b59-e0da-4798-9b48-e456423b1af2")
+		)
+		(instances
+			(project "Microcontroller"
+				(path "/c58806c5-432f-4c41-8983-8e5fd30a3703"
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -7475,6 +9395,161 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 191.77 142.24 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d32efbe0-ed68-4cb0-95ec-1fa87e9022d8")
+		(property "Reference" "#PWR011"
+			(at 185.42 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 190.754 144.78 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 191.77 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 191.77 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 191.77 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b6b2ca87-456b-45a7-b33d-fe0887648369")
+		)
+		(instances
+			(project "Microcontroller"
+				(path "/c58806c5-432f-4c41-8983-8e5fd30a3703"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 58.42 92.71 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d587a2a8-6191-40b1-95d5-dae6848ef1ea")
+		(property "Reference" "#PWR013"
+			(at 58.42 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 58.42 97.79 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 58.42 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 58.42 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fe46435a-6332-4865-8f71-3181d7a1a76d")
+		)
+		(instances
+			(project "Microcontroller"
+				(path "/c58806c5-432f-4c41-8983-8e5fd30a3703"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 171.45 127 90)
 		(unit 1)
@@ -7555,8 +9630,300 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x02_Pin")
-		(at 269.24 139.7 0)
+		(lib_id "10TPE47MAZB:10TPE47MAZB")
+		(at 35.56 175.26 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d7d9d84f-bc26-42e5-8069-ca003d1c3b6b")
+		(property "Reference" "C2"
+			(at 39.37 172.7199 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47uF"
+			(at 39.37 175.2599 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3528-21_Kemet-B_HandSolder"
+			(at 35.56 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/508/1/KEM_T2073_T59X.pdf"
+			(at 35.56 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "KEMET T598B476M010ATW070"
+			(at 35.56 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Specs" "Cap: 47 µF VDC: 10 V"
+			(at 35.56 175.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Purchase Link" "https://www.mouser.com/en/ProductDetail/KEMET/T598B476M010ATW070?qs=VVKQmw408U9XqcJadHmXUg%3D%3D"
+			(at 35.56 175.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "A_max" ""
+			(at 35.56 175.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "A_min" ""
+			(at 35.56 175.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "A_nom" ""
+			(at 35.56 175.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "D_max" ""
+			(at 35.56 175.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "D_min" ""
+			(at 35.56 175.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "D_nom" ""
+			(at 35.56 175.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_Part_Number" ""
+			(at 35.56 175.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "E_max" ""
+			(at 35.56 175.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "E_min" ""
+			(at 35.56 175.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "E_nom" ""
+			(at 35.56 175.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "L1_max" ""
+			(at 35.56 175.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "L1_min" ""
+			(at 35.56 175.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "L1_nom" ""
+			(at 35.56 175.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "L_max" ""
+			(at 35.56 175.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "L_min" ""
+			(at 35.56 175.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "L_nom" ""
+			(at 35.56 175.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 35.56 175.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b8731d3e-8f8c-40eb-bb47-af49056f86e2")
+		)
+		(pin "2"
+			(uuid "79bb17ef-08cb-4caf-a38b-7415c0e0e405")
+		)
+		(instances
+			(project "Microcontroller"
+				(path "/c58806c5-432f-4c41-8983-8e5fd30a3703"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PROVE_Symbols:39-28-1023")
+		(at 55.88 86.36 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -7565,29 +9932,55 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "f26e20d9-997d-4587-afe3-6f49060426fa")
-		(property "Reference" "J4"
-			(at 268.732 138.43 0)
+		(uuid "d8c361a5-6fa8-444c-9eff-36074e7768ff")
+		(property "Reference" "J24"
+			(at 46.736 86.614 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "Conn_01x02_Pin"
-			(at 268.478 136.144 0)
+		(property "Value" "39-28-1023"
+			(at 42.418 81.026 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" "PROVE-footprints:TE_1877285-2"
-			(at 269.24 139.7 0)
+		(property "Footprint" "PROVE-footprints:39-28-1023"
+			(at 39.37 181.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.molex.com/pdm_docs/sd/039281023_sd.pdf"
+			(at 39.37 281.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "Mini-Fit Jr. Vertical Header, 4.20mm Pitch, Dual Row, 2 Circuits, without Snap-in Plastic Peg PCB Lock, Tin, Natural"
+			(at 55.88 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7597,8 +9990,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 269.24 139.7 0)
+		(property "Height" "12.8"
+			(at 39.37 481.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7606,10 +9999,11 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 269.24 139.7 0)
+		(property "Mouser Part Number" "538-39-28-1023"
+			(at 39.37 581.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7617,33 +10011,63 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Molex/39-28-1023?qs=LQQHZ4xw2XBykFU0jRHvlQ%3D%3D"
+			(at 39.37 681.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Molex"
+			(at 39.37 781.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "39-28-1023"
+			(at 39.37 881.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
 			)
 		)
 		(pin "2"
-			(uuid "3d9706a5-9555-4352-9956-24cd3bb5e65a")
+			(uuid "f88bff7e-c0de-4e45-a86a-21b24cc79efa")
 		)
 		(pin "1"
-			(uuid "034d7658-5b76-4640-8b22-41078aad25d4")
+			(uuid "712442b5-8839-488c-9b57-f17ab9c3f65c")
 		)
 		(instances
-			(project ""
-				(path "/9602f2a9-59de-4c89-af09-0033871e87a5/20236dec-7072-4353-8cea-326a2b34f7fc"
-					(reference "J1")
-					(unit 1)
-				)
-			)
 			(project "Microcontroller"
 				(path "/c58806c5-432f-4c41-8983-8e5fd30a3703"
-					(reference "J4")
+					(reference "J24")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "PROVE:TJA1050T/CM,118")
-		(at 222.25 137.16 0)
-		(mirror y)
+		(lib_id "PROVE:RMCF1206JT120R")
+		(at 229.87 149.86 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim yes)
@@ -7651,41 +10075,31 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "f80c33e8-08ae-4901-aafc-7fd366c85cf5")
-		(property "Reference" "U3"
-			(at 222.25 121.92 0)
+		(uuid "ec095ec1-3a47-4795-9a4a-748192a59410")
+		(property "Reference" "R_TERM1"
+			(at 229.87 148.5899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "TJA1050T/CM,118"
-			(at 222.25 124.46 0)
+		(property "Value" "120"
+			(at 232.41 151.1299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 222.25 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Datasheet" "http://138.2.231.237:8080/en/part/24/info"
-			(at 222.25 137.16 0)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 230.886 150.114 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7695,8 +10109,8 @@
 				)
 			)
 		)
-		(property "Description" "IC TRANSCEIVER HALF 1/1 8SO"
-			(at 222.25 137.16 0)
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
+			(at 229.87 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7706,44 +10120,8 @@
 				)
 			)
 		)
-		(property "PARTREV" "4"
-			(at 222.25 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "STANDARD" "IPC 7351B"
-			(at 222.25 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "1.75 mm"
-			(at 222.25 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Category" "IC/CAN"
-			(at 222.25 137.16 0)
+		(property "Description" "Vishay CRCW0805120RFKEA"
+			(at 229.87 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7753,8 +10131,8 @@
 				)
 			)
 		)
-		(property "MPN" "TJA1050T/CM,118"
-			(at 222.25 137.16 0)
+		(property "Category" "Resistor"
+			(at 229.87 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7764,8 +10142,19 @@
 				)
 			)
 		)
-		(property "Manufacturer" "NXP"
-			(at 222.25 137.16 0)
+		(property "MPN" "RMCF1206JT120R"
+			(at 229.87 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Stackpole Electronics"
+			(at 229.87 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7776,7 +10165,7 @@
 			)
 		)
 		(property "Manufacturing Status" ""
-			(at 222.25 137.16 0)
+			(at 229.87 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7786,8 +10175,8 @@
 				)
 			)
 		)
-		(property "Part-DB Footprint" "8-SOIC"
-			(at 222.25 137.16 0)
+		(property "Part-DB Footprint" "1206"
+			(at 229.87 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7797,8 +10186,8 @@
 				)
 			)
 		)
-		(property "Part-DB ID" "24"
-			(at 222.25 137.16 0)
+		(property "Part-DB ID" "26"
+			(at 229.87 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7808,40 +10197,225 @@
 				)
 			)
 		)
-		(pin "3"
-			(uuid "1c352d56-c305-417e-b3ae-54f40c3cf73d")
+		(property "A_max" ""
+			(at 229.87 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
-		(pin "4"
-			(uuid "7e963a7c-167b-4e40-b467-aaec5d3b6447")
+		(property "A_min" ""
+			(at 229.87 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
-		(pin "5"
-			(uuid "37dbdf29-2185-4e49-9233-4c52b03f1d9d")
+		(property "A_nom" ""
+			(at 229.87 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
-		(pin "6"
-			(uuid "fb76a96d-a464-4a71-9258-d8c61add4fd9")
+		(property "D_max" ""
+			(at 229.87 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
-		(pin "1"
-			(uuid "d469edd6-a7a0-454b-a603-f9376e6cbcca")
+		(property "D_min" ""
+			(at 229.87 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "D_nom" ""
+			(at 229.87 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_Part_Number" ""
+			(at 229.87 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "E_max" ""
+			(at 229.87 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "E_min" ""
+			(at 229.87 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "E_nom" ""
+			(at 229.87 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "L1_max" ""
+			(at 229.87 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "L1_min" ""
+			(at 229.87 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "L1_nom" ""
+			(at 229.87 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "L_max" ""
+			(at 229.87 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "L_min" ""
+			(at 229.87 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "L_nom" ""
+			(at 229.87 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 229.87 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Purchase Link" "https://www.mouser.com/en/ProductDetail/Vishay/CRCW0805120RFKEA?qs=RG5hTW80OZI8uEHOGXGHxg%3D%3D"
+			(at 229.87 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Specs" "120 Ω, ±1%, AEC-Q200,"
+			(at 229.87 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "2"
-			(uuid "4f7867d2-ce19-4497-b320-94021c49d659")
+			(uuid "dec8b236-9d9b-4229-8b0d-4ae67a0cd028")
 		)
-		(pin "7"
-			(uuid "8a11c748-7809-4384-a8c9-471d3f8f7b0e")
-		)
-		(pin "8"
-			(uuid "734a62c0-60af-4807-9497-42e1c3903de7")
+		(pin "1"
+			(uuid "898303c5-00e0-4dc8-9179-8a0fa8b7a187")
 		)
 		(instances
-			(project ""
-				(path "/9602f2a9-59de-4c89-af09-0033871e87a5/20236dec-7072-4353-8cea-326a2b34f7fc"
-					(reference "U3")
-					(unit 1)
-				)
-			)
 			(project "Microcontroller"
 				(path "/c58806c5-432f-4c41-8983-8e5fd30a3703"
-					(reference "U3")
+					(reference "R_TERM1")
 					(unit 1)
 				)
 			)
@@ -7874,7 +10448,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "../buck_converter.kicad_blocks/25_to_5p2V_step_down.kicad_block/25_to_5p2V_step_down.kicad_sch"
+		(property "Sheetfile" "../buck_converter.kicad_blocks/buck_to_5V.kicad_block/buck_to_5V.kicad_sch"
 			(at 60.96 95.8346 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7895,9 +10469,9 @@
 				(justify right)
 			)
 		)
-		(pin "25V_In" input
+		(pin "25V_IN" input
 			(at 60.96 88.9 180)
-			(uuid "8cf0ef8a-6bbb-4e8c-8bd5-3de05eed81db")
+			(uuid "83e14818-794a-46e5-bf8c-89b8fffadc0c")
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -1,0 +1,4 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "PROVE_Symbols") (type "KiCad") (uri "${PROVE_PARTS_LIB_DIR}/PROVE-symbols") (options "") (descr ""))
+)

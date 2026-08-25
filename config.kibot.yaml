@@ -1,0 +1,31 @@
+kibot:
+  version: 1
+
+outputs:
+  - name: 'multi_project_master_bom'
+    comment: 'Combined multi-project BOM'
+    type: 'bom'
+    options:
+      format: 'CSV'
+      output: 'multi_project_master_bom.csv' # Forces exact filename for the Python script
+      
+      # Grouping criteria
+      group_fields:
+        - 'Value'
+        - 'Footprint'
+        - 'Purchase Link'
+      
+      # Define columns (Updated to KiCad/KiBot standard names)
+      columns:
+        - field: 'Row'
+          name: '#'
+        - field: 'Quantity Per PCB'
+          name: 'Total Qty'
+        - field: 'References'
+          name: 'References'
+        - field: 'Value'
+          name: 'Value'
+        - field: 'Footprint'
+          name: 'Footprint'
+        - field: 'Purchase Link'
+          name: 'Purchase Link'
